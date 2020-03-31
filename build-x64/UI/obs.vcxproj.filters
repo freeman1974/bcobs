@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\build-x64\UI\obs_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\platform-windows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\win-update\update-window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\win-update\win-update.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\win-update\win-update-helpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\libff\libff\ff-util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\json11\json11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\obs-app.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-dock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\api-interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-basic-main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-basic-stats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-basic-filters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-basic-settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-basic-interaction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-basic-properties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-basic-auto-config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-basic-main-outputs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-basic-source-select.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-basic-settings-stream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-basic-auto-config-test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-basic-main-scene-collections.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-basic-main-transitions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-basic-main-dropfiles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-basic-main-profiles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-basic-main-browser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-basic-main-icons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-basic-status-bar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-basic-adv-audio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-basic-transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-basic-preview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-basic-about.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-importer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-namedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-log-reply.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-projector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\window-remux.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\auth-base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\source-tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\scene-tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\properties-view.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\focus-list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\menu-button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\double-slider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\slider-ignorewheel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\combobox-ignorewheel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\spinbox-ignorewheel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\record-button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\ui-validation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\url-push-button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\volume-control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\adv-audio-control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\item-widget-helpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\horizontal-scroll-area.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\vertical-scroll-area.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\visibility-item-widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\slider-absoluteset-style.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\qt-display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\crash-report.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\hotkey-edit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\source-label.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\remote-text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\audio-encoders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\qt-wrappers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\importers\importers.cpp">
+      <Filter>importers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\importers\classic.cpp">
+      <Filter>importers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\importers\sl.cpp">
+      <Filter>importers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\importers\studio.cpp">
+      <Filter>importers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\UI\importers\xsplit.cpp">
+      <Filter>importers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\build-x64\UI\qrc_obs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\win-update\update-window.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\win-update\win-update.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\win-update\win-update-helpers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\deps\libff\libff\ff-util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\deps\json11\json11.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\obs-app.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\platform.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\window-dock.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\window-main.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\window-basic-main.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\window-basic-stats.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\window-basic-filters.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\window-basic-settings.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\window-basic-interaction.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\window-basic-properties.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\window-basic-auto-config.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\window-basic-main-outputs.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\window-basic-source-select.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\window-basic-about.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\window-basic-status-bar.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\window-basic-adv-audio.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\window-basic-transform.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\window-basic-preview.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\window-importer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\window-namedialog.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\window-log-reply.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\window-projector.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\window-remux.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\auth-base.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\source-tree.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\scene-tree.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\properties-view.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\properties-view.moc.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\display-helpers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\balance-slider.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\double-slider.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\slider-ignorewheel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\combobox-ignorewheel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\spinbox-ignorewheel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\focus-list.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\menu-button.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\mute-checkbox.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\record-button.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\ui-validation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\url-push-button.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\volume-control.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\adv-audio-control.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\item-widget-helpers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\visibility-checkbox.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\locked-checkbox.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\horizontal-scroll-area.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\expand-checkbox.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\vertical-scroll-area.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\visibility-item-widget.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\slider-absoluteset-style.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\qt-display.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\crash-report.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\hotkey-edit.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\source-label.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\remote-text.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\audio-encoders.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\qt-wrappers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\clickable-label.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\UI\importers\importers.hpp">
+      <Filter>importers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\build-x64\UI\ui_NameDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\build-x64\UI\ui_AutoConfigStartPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\build-x64\UI\ui_AutoConfigVideoPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\build-x64\UI\ui_AutoConfigStreamPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\build-x64\UI\ui_AutoConfigTestPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\build-x64\UI\ui_ColorSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\build-x64\UI\ui_OBSLogReply.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\build-x64\UI\ui_OBSBasic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\build-x64\UI\ui_OBSBasicTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\build-x64\UI\ui_OBSBasicFilters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\build-x64\UI\ui_OBSBasicSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\build-x64\UI\ui_OBSBasicSourceSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\build-x64\UI\ui_OBSBasicInteraction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\build-x64\UI\ui_OBSExtraBrowsers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\build-x64\UI\ui_OBSUpdate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\build-x64\UI\ui_OBSRemux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\build-x64\UI\ui_OBSImporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\build-x64\UI\ui_OBSAbout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\UI\forms\NameDialog.ui" />
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\UI\forms\AutoConfigStartPage.ui" />
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\UI\forms\AutoConfigVideoPage.ui" />
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\UI\forms\AutoConfigStreamPage.ui" />
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\UI\forms\AutoConfigTestPage.ui" />
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\UI\forms\ColorSelect.ui" />
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\UI\forms\OBSLogReply.ui" />
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\UI\forms\OBSBasic.ui" />
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\UI\forms\OBSBasicTransform.ui" />
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\UI\forms\OBSBasicFilters.ui" />
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\UI\forms\OBSBasicSettings.ui" />
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\UI\forms\OBSBasicSourceSelect.ui" />
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\UI\forms\OBSBasicInteraction.ui" />
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\UI\forms\OBSExtraBrowsers.ui" />
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\UI\forms\OBSUpdate.ui" />
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\UI\forms\OBSRemux.ui" />
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\UI\forms\OBSImporter.ui" />
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\UI\forms\OBSAbout.ui" />
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\UI\forms\obs.qrc" />
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\UI\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\proj\github\obs\obs-studio\build-x64\obs.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7E98FA87-9F76-3651-BE5D-D2A33F6A21C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6A0CAF36-27C5-36BA-8775-5492AB2C0B5C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="importers">
+      <UniqueIdentifier>{3E4DD82D-4597-3460-8DF3-8E79E96B5CE9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="importers\Header Files">
+      <UniqueIdentifier>{17C699D0-5DCC-3832-9DE9-A57F5F415260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="importers\Source Files">
+      <UniqueIdentifier>{5B2DF4F4-59E5-3B49-940B-7BEB1D9043E0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

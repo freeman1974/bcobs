@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/proj/github/obs/obs-studio/plugins/obs-text/CMakeLists.txt
+  obs-text.cpp
+    正在创建库 D:/proj/github/obs/obs-studio/build-x64/plugins/obs-text/Release/obs-text.lib 和对象 D:/proj/github/obs/obs-studio/build-x64/plugins/obs-text/Release/obs-text.exp
+  obs-text.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\plugins\obs-text\Release\obs-text.dll

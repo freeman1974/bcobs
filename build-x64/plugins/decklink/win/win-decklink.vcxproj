@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6CB9C136-0C39-31C3-A06C-64D0D86188F1}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>win-decklink</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">win-decklink.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">win-decklink</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">win-decklink.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">win-decklink</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">win-decklink.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">win-decklink</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">win-decklink.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">win-decklink</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\build-x64\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4201;4456;4457;4458;4459;4595</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DEBUG=1;_DEBUG=1;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;HAVE_OBSCONFIG_H;CMAKE_INTDIR="Debug";win_decklink_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;DEBUG=1;_DEBUG=1;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;HAVE_OBSCONFIG_H;CMAKE_INTDIR=\"Debug\";win_decklink_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\build-x64\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\build-x64\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>			</Message>
+      <Command>setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -E copy D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/Debug/win-decklink.dll D:/proj/github/obs/obs-studio/build-x64/rundir/Debug/obs-plugins/64bit/win-decklink.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -DCONFIG=Debug -DFNAME=win-decklink.dll -DINPUT=D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/Debug -DOUTPUT=D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/pdbs -P D:/proj/github/obs/obs-studio/cmake/copy_on_debug_helper.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -DCONFIG=Debug -DFNAME=win-decklink.dll -DINPUT=D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/Debug -DOUTPUT=D:/proj/github/obs/obs-studio/build-x64/rundir/Debug/obs-plugins/64bit -P D:/proj/github/obs/obs-studio/cmake/copy_on_debug_helper.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -E copy_directory D:/proj/github/obs/obs-studio/plugins/decklink/win/../data D:/proj/github/obs/obs-studio/build-x64/rundir/Debug/data/obs-plugins/win-decklink
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\..\libobs\Debug\obs.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/Debug/win-decklink.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/Debug/win-decklink.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\build-x64\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4127;4201;4456;4457;4458;4459;4595</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;HAVE_OBSCONFIG_H;CMAKE_INTDIR="Release";win_decklink_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;HAVE_OBSCONFIG_H;CMAKE_INTDIR=\"Release\";win_decklink_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\build-x64\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\build-x64\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>			</Message>
+      <Command>setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -E copy D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/Release/win-decklink.dll D:/proj/github/obs/obs-studio/build-x64/rundir/Release/obs-plugins/64bit/win-decklink.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -DCONFIG=Release -DFNAME=win-decklink.dll -DINPUT=D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/Release -DOUTPUT=D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/pdbs -P D:/proj/github/obs/obs-studio/cmake/copy_on_debug_helper.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -DCONFIG=Release -DFNAME=win-decklink.dll -DINPUT=D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/Release -DOUTPUT=D:/proj/github/obs/obs-studio/build-x64/rundir/Release/obs-plugins/64bit -P D:/proj/github/obs/obs-studio/cmake/copy_on_debug_helper.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -E copy_directory D:/proj/github/obs/obs-studio/plugins/decklink/win/../data D:/proj/github/obs/obs-studio/build-x64/rundir/Release/data/obs-plugins/win-decklink
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\..\libobs\Release\obs.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/Release/win-decklink.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/Release/win-decklink.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\build-x64\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4127;4201;4456;4457;4458;4459;4595</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;HAVE_OBSCONFIG_H;CMAKE_INTDIR="MinSizeRel";win_decklink_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;HAVE_OBSCONFIG_H;CMAKE_INTDIR=\"MinSizeRel\";win_decklink_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\build-x64\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\build-x64\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>			</Message>
+      <Command>setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -E copy D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/MinSizeRel/win-decklink.dll D:/proj/github/obs/obs-studio/build-x64/rundir/MinSizeRel/obs-plugins/64bit/win-decklink.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -DCONFIG=MinSizeRel -DFNAME=win-decklink.dll -DINPUT=D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/MinSizeRel -DOUTPUT=D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/pdbs -P D:/proj/github/obs/obs-studio/cmake/copy_on_debug_helper.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -DCONFIG=MinSizeRel -DFNAME=win-decklink.dll -DINPUT=D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/MinSizeRel -DOUTPUT=D:/proj/github/obs/obs-studio/build-x64/rundir/MinSizeRel/obs-plugins/64bit -P D:/proj/github/obs/obs-studio/cmake/copy_on_debug_helper.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -E copy_directory D:/proj/github/obs/obs-studio/plugins/decklink/win/../data D:/proj/github/obs/obs-studio/build-x64/rundir/MinSizeRel/data/obs-plugins/win-decklink
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\..\libobs\MinSizeRel\obs.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/MinSizeRel/win-decklink.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/MinSizeRel/win-decklink.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\build-x64\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4201;4456;4457;4458;4459;4595</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;HAVE_OBSCONFIG_H;CMAKE_INTDIR="RelWithDebInfo";win_decklink_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;HAVE_OBSCONFIG_H;CMAKE_INTDIR=\"RelWithDebInfo\";win_decklink_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\build-x64\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\build-x64\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>			</Message>
+      <Command>setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -E copy D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/RelWithDebInfo/win-decklink.dll D:/proj/github/obs/obs-studio/build-x64/rundir/RelWithDebInfo/obs-plugins/64bit/win-decklink.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -DCONFIG=RelWithDebInfo -DFNAME=win-decklink.dll -DINPUT=D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/RelWithDebInfo -DOUTPUT=D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/pdbs -P D:/proj/github/obs/obs-studio/cmake/copy_on_debug_helper.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -DCONFIG=RelWithDebInfo -DFNAME=win-decklink.dll -DINPUT=D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/RelWithDebInfo -DOUTPUT=D:/proj/github/obs/obs-studio/build-x64/rundir/RelWithDebInfo/obs-plugins/64bit -P D:/proj/github/obs/obs-studio/cmake/copy_on_debug_helper.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -E copy_directory D:/proj/github/obs/obs-studio/plugins/decklink/win/../data D:/proj/github/obs/obs-studio/build-x64/rundir/RelWithDebInfo/data/obs-plugins/win-decklink
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\..\libobs\RelWithDebInfo\obs.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/RelWithDebInfo/win-decklink.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/RelWithDebInfo/win-decklink.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\build-x64\CMakeFiles\c1060153ff51b83a33c0b9bbeec0e4ca\DeckLinkAPI.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating DeckLinkAPI.h, DeckLinkAPI_i.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+midl /h DeckLinkAPI.h /iid DeckLinkAPI_i.c /notlb D:/proj/github/obs/obs-studio/plugins/decklink/win/decklink-sdk/DeckLinkAPI.idl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\proj\github\obs\obs-studio\plugins\decklink\win\decklink-sdk\DeckLinkAPI.idl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win\DeckLinkAPI.h;D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win\DeckLinkAPI_i.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating DeckLinkAPI.h, DeckLinkAPI_i.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+midl /h DeckLinkAPI.h /iid DeckLinkAPI_i.c /notlb D:/proj/github/obs/obs-studio/plugins/decklink/win/decklink-sdk/DeckLinkAPI.idl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\proj\github\obs\obs-studio\plugins\decklink\win\decklink-sdk\DeckLinkAPI.idl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win\DeckLinkAPI.h;D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win\DeckLinkAPI_i.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating DeckLinkAPI.h, DeckLinkAPI_i.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+midl /h DeckLinkAPI.h /iid DeckLinkAPI_i.c /notlb D:/proj/github/obs/obs-studio/plugins/decklink/win/decklink-sdk/DeckLinkAPI.idl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\proj\github\obs\obs-studio\plugins\decklink\win\decklink-sdk\DeckLinkAPI.idl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win\DeckLinkAPI.h;D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win\DeckLinkAPI_i.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating DeckLinkAPI.h, DeckLinkAPI_i.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+midl /h DeckLinkAPI.h /iid DeckLinkAPI_i.c /notlb D:/proj/github/obs/obs-studio/plugins/decklink/win/decklink-sdk/DeckLinkAPI.idl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\proj\github\obs\obs-studio\plugins\decklink\win\decklink-sdk\DeckLinkAPI.idl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win\DeckLinkAPI.h;D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win\DeckLinkAPI_i.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\plugins\decklink\win\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/proj/github/obs/obs-studio/plugins/decklink/win/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\proj\github\obs\obs-studio\cmake\Modules\IDLFileHelper.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/proj/github/obs/obs-studio/plugins/decklink/win/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\proj\github\obs\obs-studio\cmake\Modules\IDLFileHelper.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/proj/github/obs/obs-studio/plugins/decklink/win/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\proj\github\obs\obs-studio\cmake\Modules\IDLFileHelper.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/proj/github/obs/obs-studio/plugins/decklink/win/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\proj\github\obs\obs-studio\cmake\Modules\IDLFileHelper.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\decklink\plugin-main.cpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\decklink\decklink-devices.cpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\decklink\DecklinkOutput.cpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\decklink\decklink-source.cpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\decklink\decklink-output.cpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\decklink\DecklinkInput.cpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\decklink\DecklinkBase.cpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\decklink\decklink-device-instance.cpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\decklink\decklink-device-discovery.cpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\decklink\decklink-device.cpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\decklink\decklink-device-mode.cpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\decklink\audio-repack.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\decklink\win\platform.cpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\decklink\util.cpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\decklink\decklink-devices.hpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\decklink\DecklinkOutput.hpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\decklink\const.h" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\decklink\platform.hpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\decklink\DecklinkInput.hpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\decklink\DecklinkBase.h" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\decklink\decklink-device-instance.hpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\decklink\decklink-device-discovery.hpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\decklink\decklink-device.hpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\decklink\decklink-device-mode.hpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\decklink\audio-repack.h" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\decklink\audio-repack.hpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\decklink\util.hpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\decklink\win\decklink-sdk\DeckLinkAPIVersion.h" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win\DeckLinkAPI.h" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win\DeckLinkAPI_i.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\ZERO_CHECK.vcxproj">
+      <Project>{C1803EF6-F629-3922-93F2-0DA9AA51712C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\libobs\libobs.vcxproj">
+      <Project>{6FFDC9CC-FECB-3B79-BBC1-2D100066D7D5}</Project>
+      <Name>libobs</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\ftl-stream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\hmac\hmac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\hmac\sha2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\ftl-sdk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\handshake.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\ingest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\ftl_helpers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\media.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\gettimeofday\gettimeofday.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\logging.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\win32\socket.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\win32\threads.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\obs-outputs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\null-output.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\rtmp-stream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\rtmp-windows.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\flv-output.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\flv-mux.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\net-if.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\librtmp\amf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\librtmp\cencode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\librtmp\hashswf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\librtmp\log.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\librtmp\md5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\librtmp\parseurl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\librtmp\rtmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\hmac\hmac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\hmac\sha2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\ftl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\ftl_private.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\gettimeofday\gettimeofday.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\ftl-sdk\libftl\win32\threads.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\build-x64\plugins\obs-outputs\config\obs-outputs-config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\obs-output-ver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\rtmp-helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\rtmp-stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\net-if.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\flv-mux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\librtmp\amf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\librtmp\bytes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\librtmp\cencode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\librtmp\dh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\librtmp\dhgroups.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\librtmp\handshake.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\librtmp\http.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\librtmp\log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\librtmp\md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\librtmp\rtmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\librtmp\rtmp_sys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\plugins\obs-outputs\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7E98FA87-9F76-3651-BE5D-D2A33F6A21C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6A0CAF36-27C5-36BA-8775-5492AB2C0B5C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

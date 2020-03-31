@@ -1,0 +1,15 @@
+﻿  Automatic MOC for target decklink-ouput-ui
+  Generating ui_output.h
+  Building Custom Rule D:/proj/github/obs/obs-studio/UI/frontend-plugins/decklink-output-ui/CMakeLists.txt
+  mocs_compilation.cpp
+  properties-view.cpp
+  vertical-scroll-area.cpp
+  double-slider.cpp
+  slider-ignorewheel.cpp
+  combobox-ignorewheel.cpp
+D:\proj\github\obs\obs-studio\UI\properties-view.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  spinbox-ignorewheel.cpp
+  DecklinkOutputUI.cpp
+  decklink-ui-main.cpp
+    正在创建库 D:/proj/github/obs/obs-studio/build-x64/UI/frontend-plugins/decklink-output-ui/Release/decklink-ouput-ui.lib 和对象 D:/proj/github/obs/obs-studio/build-x64/UI/frontend-plugins/decklink-output-ui/Release/decklink-ouput-ui.exp
+  decklink-ouput-ui.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\UI\frontend-plugins\decklink-output-ui\Release\decklink-ouput-ui.dll

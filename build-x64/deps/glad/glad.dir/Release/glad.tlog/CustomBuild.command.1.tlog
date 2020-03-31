@@ -1,0 +1,10 @@
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\DEPS\GLAD\CMAKELISTS.TXT
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/deps/glad/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

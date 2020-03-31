@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0F7269E4-7B7D-3875-8243-1BDAC77CD9F4}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/proj/github/obs/obs-studio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\proj\github\obs\obs-studio\UI\obs.rc.in;D:\proj\github\obs\obs-studio\build-x64\CMakeFiles\3.17.0-rc3\CMakeCCompiler.cmake;D:\proj\github\obs\obs-studio\build-x64\CMakeFiles\3.17.0-rc3\CMakeCXXCompiler.cmake;D:\proj\github\obs\obs-studio\build-x64\CMakeFiles\3.17.0-rc3\CMakeRCCompiler.cmake;D:\proj\github\obs\obs-studio\build-x64\CMakeFiles\3.17.0-rc3\CMakeSystem.cmake;D:\proj\github\obs\obs-studio\cmake\ALL_BUILD.vcxproj.user.in;D:\proj\github\obs\obs-studio\cmake\Modules\CopyMSVCBins.cmake;D:\proj\github\obs\obs-studio\cmake\Modules\ObsCpack.cmake;D:\proj\github\obs\obs-studio\cmake\Modules\ObsHelpers.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCCompiler.cmake.in;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCCompilerABI.c;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCInformation.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCXXCompiler.cmake.in;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCompilerIdDetection.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineCCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineCXXCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineCompileFeatures.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineCompilerABI.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineCompilerId.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineRCCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineSystem.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeFindBinUtils.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeParseArguments.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeParseImplicitLinkInfo.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeRCCompiler.cmake.in;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeRCInformation.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeSystem.cmake.in;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeTestCCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeTestCXXCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeTestCompilerCommon.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeTestRCCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CPack.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CPackComponent.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\TI-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CompilerId\VS-10.vcxproj.in;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\GNUInstallDirs.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Internal\FeatureTesting.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Platform\Windows-Determine-CXX.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Platform\Windows.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\proj\github\obs\obs-studio\build-x64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/proj/github/obs/obs-studio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\proj\github\obs\obs-studio\UI\obs.rc.in;D:\proj\github\obs\obs-studio\build-x64\CMakeFiles\3.17.0-rc3\CMakeCCompiler.cmake;D:\proj\github\obs\obs-studio\build-x64\CMakeFiles\3.17.0-rc3\CMakeCXXCompiler.cmake;D:\proj\github\obs\obs-studio\build-x64\CMakeFiles\3.17.0-rc3\CMakeRCCompiler.cmake;D:\proj\github\obs\obs-studio\build-x64\CMakeFiles\3.17.0-rc3\CMakeSystem.cmake;D:\proj\github\obs\obs-studio\cmake\ALL_BUILD.vcxproj.user.in;D:\proj\github\obs\obs-studio\cmake\Modules\CopyMSVCBins.cmake;D:\proj\github\obs\obs-studio\cmake\Modules\ObsCpack.cmake;D:\proj\github\obs\obs-studio\cmake\Modules\ObsHelpers.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCCompiler.cmake.in;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCCompilerABI.c;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCInformation.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCXXCompiler.cmake.in;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCompilerIdDetection.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineCCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineCXXCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineCompileFeatures.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineCompilerABI.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineCompilerId.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineRCCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineSystem.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeFindBinUtils.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeParseArguments.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeParseImplicitLinkInfo.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeRCCompiler.cmake.in;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeRCInformation.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeSystem.cmake.in;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeTestCCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeTestCXXCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeTestCompilerCommon.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeTestRCCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CPack.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CPackComponent.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\TI-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CompilerId\VS-10.vcxproj.in;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\GNUInstallDirs.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Internal\FeatureTesting.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Platform\Windows-Determine-CXX.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Platform\Windows.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\proj\github\obs\obs-studio\build-x64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/proj/github/obs/obs-studio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\proj\github\obs\obs-studio\UI\obs.rc.in;D:\proj\github\obs\obs-studio\build-x64\CMakeFiles\3.17.0-rc3\CMakeCCompiler.cmake;D:\proj\github\obs\obs-studio\build-x64\CMakeFiles\3.17.0-rc3\CMakeCXXCompiler.cmake;D:\proj\github\obs\obs-studio\build-x64\CMakeFiles\3.17.0-rc3\CMakeRCCompiler.cmake;D:\proj\github\obs\obs-studio\build-x64\CMakeFiles\3.17.0-rc3\CMakeSystem.cmake;D:\proj\github\obs\obs-studio\cmake\ALL_BUILD.vcxproj.user.in;D:\proj\github\obs\obs-studio\cmake\Modules\CopyMSVCBins.cmake;D:\proj\github\obs\obs-studio\cmake\Modules\ObsCpack.cmake;D:\proj\github\obs\obs-studio\cmake\Modules\ObsHelpers.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCCompiler.cmake.in;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCCompilerABI.c;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCInformation.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCXXCompiler.cmake.in;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCompilerIdDetection.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineCCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineCXXCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineCompileFeatures.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineCompilerABI.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineCompilerId.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineRCCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineSystem.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeFindBinUtils.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeParseArguments.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeParseImplicitLinkInfo.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeRCCompiler.cmake.in;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeRCInformation.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeSystem.cmake.in;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeTestCCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeTestCXXCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeTestCompilerCommon.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeTestRCCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CPack.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CPackComponent.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\TI-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CompilerId\VS-10.vcxproj.in;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\GNUInstallDirs.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Internal\FeatureTesting.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Platform\Windows-Determine-CXX.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Platform\Windows.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\proj\github\obs\obs-studio\build-x64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/proj/github/obs/obs-studio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\proj\github\obs\obs-studio\UI\obs.rc.in;D:\proj\github\obs\obs-studio\build-x64\CMakeFiles\3.17.0-rc3\CMakeCCompiler.cmake;D:\proj\github\obs\obs-studio\build-x64\CMakeFiles\3.17.0-rc3\CMakeCXXCompiler.cmake;D:\proj\github\obs\obs-studio\build-x64\CMakeFiles\3.17.0-rc3\CMakeRCCompiler.cmake;D:\proj\github\obs\obs-studio\build-x64\CMakeFiles\3.17.0-rc3\CMakeSystem.cmake;D:\proj\github\obs\obs-studio\cmake\ALL_BUILD.vcxproj.user.in;D:\proj\github\obs\obs-studio\cmake\Modules\CopyMSVCBins.cmake;D:\proj\github\obs\obs-studio\cmake\Modules\ObsCpack.cmake;D:\proj\github\obs\obs-studio\cmake\Modules\ObsHelpers.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCCompiler.cmake.in;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCCompilerABI.c;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCInformation.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCXXCompiler.cmake.in;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeCompilerIdDetection.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineCCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineCXXCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineCompileFeatures.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineCompilerABI.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineCompilerId.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineRCCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeDetermineSystem.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeFindBinUtils.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeParseArguments.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeParseImplicitLinkInfo.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeRCCompiler.cmake.in;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeRCInformation.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeSystem.cmake.in;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeTestCCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeTestCXXCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeTestCompilerCommon.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CMakeTestRCCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CPack.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CPackComponent.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\TI-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\CompilerId\VS-10.vcxproj.in;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\GNUInstallDirs.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Internal\FeatureTesting.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Platform\Windows-Determine-CXX.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Platform\Windows.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\proj\github\obs\obs-studio\build-x64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\ZERO_CHECK.vcxproj">
+      <Project>{C1803EF6-F629-3922-93F2-0DA9AA51712C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\deps\obs-scripting\obspython\_obspython.vcxproj">
+      <Project>{2EF395EE-A02E-3CE1-B283-7C1A0F5C7BC1}</Project>
+      <Name>_obspython</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\deps\blake2\blake2.vcxproj">
+      <Project>{8BB5D85C-CB21-3E50-920C-2F64B4EB2420}</Project>
+      <Name>blake2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\plugins\coreaudio-encoder\coreaudio-encoder.vcxproj">
+      <Project>{D561E344-25F9-348E-8C4A-D5DD33812B21}</Project>
+      <Name>coreaudio-encoder</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\UI\frontend-plugins\decklink-output-ui\decklink-ouput-ui.vcxproj">
+      <Project>{F9D57263-2B1F-3E7C-90DB-FD79FA9AD45F}</Project>
+      <Name>decklink-ouput-ui</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\enc-amf.vcxproj">
+      <Project>{410CEE13-B890-3D10-8329-995D54643F27}</Project>
+      <Name>enc-amf</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\amf-test\enc-amf-test.vcxproj">
+      <Project>{08A244EB-1D47-3214-A46E-3EB30E70D827}</Project>
+      <Name>enc-amf-test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\deps\file-updater\file-updater.vcxproj">
+      <Project>{A12726FA-C59C-3DAB-ADCC-B365F58E3A01}</Project>
+      <Name>file-updater</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\UI\frontend-plugins\frontend-tools\frontend-tools.vcxproj">
+      <Project>{F1AC998A-4C39-3A25-952A-0E7036656360}</Project>
+      <Name>frontend-tools</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\plugins\win-capture\get-graphics-offsets\get-graphics-offsets.vcxproj">
+      <Project>{0A8409D8-888E-3FB5-9812-3D6229967992}</Project>
+      <Name>get-graphics-offsets</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\deps\glad\glad.vcxproj">
+      <Project>{E2A11746-96AD-3BE6-8DF6-CB285EF687FC}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\plugins\win-capture\graphics-hook\graphics-hook.vcxproj">
+      <Project>{2CA1D838-0D77-3AF5-A13A-95DDC161012B}</Project>
+      <Name>graphics-hook</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\plugins\image-source\image-source.vcxproj">
+      <Project>{09154150-3DC2-3BA6-AB88-5473B89771FB}</Project>
+      <Name>image-source</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\plugins\win-capture\inject-helper\inject-helper.vcxproj">
+      <Project>{F151E8F3-C2E6-3F4A-A76C-7D5076C1FB4E}</Project>
+      <Name>inject-helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\deps\ipc-util\ipc-util.vcxproj">
+      <Project>{E66E06B6-6C35-38F3-8F7F-56E7B169178A}</Project>
+      <Name>ipc-util</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\deps\jansson\jansson.vcxproj">
+      <Project>{88BA7837-BCD3-3450-A4D6-04F9CCB403C7}</Project>
+      <Name>jansson</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\libobs\libobs.vcxproj">
+      <Project>{6FFDC9CC-FECB-3B79-BBC1-2D100066D7D5}</Project>
+      <Name>libobs</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\libobs-d3d11\libobs-d3d11.vcxproj">
+      <Project>{7F9D646F-90CE-3E53-A427-504129B4AD0C}</Project>
+      <Name>libobs-d3d11</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\libobs-opengl\libobs-opengl.vcxproj">
+      <Project>{4BF0808C-2909-3BAA-AC46-4F9F238C260C}</Project>
+      <Name>libobs-opengl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\libobs-winrt\libobs-winrt.vcxproj">
+      <Project>{4A5705F5-D30F-3B09-9A9F-801466D8B1DD}</Project>
+      <Name>libobs-winrt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\deps\lzma\lzma.vcxproj">
+      <Project>{00A3FA32-134D-3933-BF8A-631529137672}</Project>
+      <Name>lzma</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\deps\media-playback\media-playback.vcxproj">
+      <Project>{126E6711-64E3-3077-98CD-EA2402B6363D}</Project>
+      <Name>media-playback</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\UI\obs.vcxproj">
+      <Project>{FF7D5FC8-B0C8-39EF-AA91-CB608364308F}</Project>
+      <Name>obs</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\plugins\obs-ffmpeg\obs-ffmpeg.vcxproj">
+      <Project>{7D5F5127-7869-3508-BF59-E17EDA9CD1F2}</Project>
+      <Name>obs-ffmpeg</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\plugins\obs-ffmpeg\ffmpeg-mux\obs-ffmpeg-mux.vcxproj">
+      <Project>{424DC28F-2F23-377C-92CB-5FA5C067C38C}</Project>
+      <Name>obs-ffmpeg-mux</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\plugins\obs-filters\obs-filters.vcxproj">
+      <Project>{6AB82429-96C9-34D0-BC2A-7839FB0E3BB4}</Project>
+      <Name>obs-filters</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\UI\obs-frontend-api\obs-frontend-api.vcxproj">
+      <Project>{98B5CAC3-9F0B-3194-8F2B-1BFF13164B1F}</Project>
+      <Name>obs-frontend-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\plugins\obs-outputs\obs-outputs.vcxproj">
+      <Project>{6740E38B-D29E-336C-862C-52DD9839E0D7}</Project>
+      <Name>obs-outputs</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\plugins\obs-qsv11\obs-qsv11.vcxproj">
+      <Project>{5D15633A-8A05-3AF4-B8C5-122EF01678C0}</Project>
+      <Name>obs-qsv11</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\deps\obs-scripting\obs-scripting.vcxproj">
+      <Project>{A3D222A2-9B14-3514-9655-C8BAB083BC78}</Project>
+      <Name>obs-scripting</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\plugins\obs-text\obs-text.vcxproj">
+      <Project>{5B22650B-C2A0-364A-B05E-2B4177F7474B}</Project>
+      <Name>obs-text</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\plugins\obs-transitions\obs-transitions.vcxproj">
+      <Project>{E180EC18-BA72-3663-8FAA-69007608FFE0}</Project>
+      <Name>obs-transitions</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\plugins\obs-vst\obs-vst.vcxproj">
+      <Project>{AB7601C4-0C8A-3CF2-906A-0C27857CA3CD}</Project>
+      <Name>obs-vst</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\plugins\obs-x264\obs-x264.vcxproj">
+      <Project>{F1177094-6C76-36F7-BDCF-1DB17C7976A3}</Project>
+      <Name>obs-x264</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\deps\obs-scripting\obslua\obslua.vcxproj">
+      <Project>{8DE4AB40-5D57-3E1D-A6C0-A8D9926405C1}</Project>
+      <Name>obslua</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\plugins\rtmp-services\rtmp-services.vcxproj">
+      <Project>{FE6E96EB-295D-31A4-BE77-46662C8C6759}</Project>
+      <Name>rtmp-services</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\plugins\text-freetype2\text-freetype2.vcxproj">
+      <Project>{E21AF89D-3702-3C97-8D48-1D26E22C9F04}</Project>
+      <Name>text-freetype2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\deps\w32-pthreads\w32-pthreads.vcxproj">
+      <Project>{5D3A4EA2-CA56-3999-9123-BB80BB4723B4}</Project>
+      <Name>w32-pthreads</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\plugins\win-capture\win-capture.vcxproj">
+      <Project>{C7989B0B-2C1A-3E7D-8CE3-24484252D14E}</Project>
+      <Name>win-capture</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win\win-decklink.vcxproj">
+      <Project>{6CB9C136-0C39-31C3-A06C-64D0D86188F1}</Project>
+      <Name>win-decklink</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\plugins\win-dshow\win-dshow.vcxproj">
+      <Project>{B0BE7524-A9DB-3FBE-AEB6-23FFBCE638A3}</Project>
+      <Name>win-dshow</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\plugins\win-mf\win-mf.vcxproj">
+      <Project>{DD6BC284-011F-3EC0-BE81-1FA26B4CD896}</Project>
+      <Name>win-mf</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\plugins\win-wasapi\win-wasapi.vcxproj">
+      <Project>{B84ACB89-3351-396F-8A36-79A79E5EB2F2}</Project>
+      <Name>win-wasapi</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

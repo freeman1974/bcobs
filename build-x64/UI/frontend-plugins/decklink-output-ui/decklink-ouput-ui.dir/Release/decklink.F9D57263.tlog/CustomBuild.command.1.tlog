@@ -1,0 +1,20 @@
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\UI\FRONTEND-PLUGINS\DECKLINK-OUTPUT-UI\FORMS\OUTPUT.UI
+setlocal
+D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic.exe -o D:/proj/github/obs/obs-studio/build-x64/UI/frontend-plugins/decklink-output-ui/ui_output.h D:/proj/github/obs/obs-studio/UI/frontend-plugins/decklink-output-ui/forms/output.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\UI\FRONTEND-PLUGINS\DECKLINK-OUTPUT-UI\CMAKELISTS.TXT
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/UI/frontend-plugins/decklink-output-ui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+﻿  Automatic MOC for target obs-vst
+  Building Custom Rule D:/proj/github/obs/obs-studio/plugins/obs-vst/CMakeLists.txt
+  mocs_compilation.cpp
+  obs-vst.cpp
+  VSTPlugin.cpp
+  EditorWidget.cpp
+  VSTPlugin-win.cpp
+  EditorWidget-win.cpp
+    正在创建库 D:/proj/github/obs/obs-studio/build-x64/plugins/obs-vst/Release/obs-vst.lib 和对象 D:/proj/github/obs/obs-studio/build-x64/plugins/obs-vst/Release/obs-vst.exp
+  obs-vst.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\plugins\obs-vst\Release\obs-vst.dll

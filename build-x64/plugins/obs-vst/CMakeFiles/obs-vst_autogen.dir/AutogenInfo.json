@@ -1,0 +1,122 @@
+{
+	"BUILD_DIR" : "D:/proj/github/obs/obs-studio/build-x64/plugins/obs-vst/obs-vst_autogen",
+	"CMAKE_BINARY_DIR" : "D:/proj/github/obs/obs-studio/build-x64",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/proj/github/obs/obs-studio/build-x64/plugins/obs-vst",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/proj/github/obs/obs-studio/plugins/obs-vst",
+	"CMAKE_EXECUTABLE" : "D:/proj/github/obs/obs-tools/cmake-3.17.0/bin/cmake.exe",
+	"CMAKE_SOURCE_DIR" : "D:/proj/github/obs/obs-studio",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"D:/proj/github/obs/obs-studio/plugins/obs-vst/headers/EditorWidget.h",
+			"Mu",
+			"K6S233IZAZ/moc_EditorWidget.cpp"
+		],
+		[
+			"D:/proj/github/obs/obs-studio/plugins/obs-vst/headers/VSTPlugin.h",
+			"Mu",
+			"K6S233IZAZ/moc_VSTPlugin.cpp"
+		],
+		[
+			"D:/proj/github/obs/obs-studio/plugins/obs-vst/headers/vst-plugin-callbacks.hpp",
+			"Mu",
+			"K6S233IZAZ/moc_vst-plugin-callbacks.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "D:/proj/github/obs/obs-studio/build-x64/plugins/obs-vst/obs-vst_autogen/include",
+	"INCLUDE_DIR_Debug" : "D:/proj/github/obs/obs-studio/build-x64/plugins/obs-vst/obs-vst_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "D:/proj/github/obs/obs-studio/build-x64/plugins/obs-vst/obs-vst_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "D:/proj/github/obs/obs-studio/build-x64/plugins/obs-vst/obs-vst_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "D:/proj/github/obs/obs-studio/build-x64/plugins/obs-vst/obs-vst_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "D:/proj/github/obs/obs-studio/build-x64/plugins/obs-vst/obs-vst_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"HAVE_OBSCONFIG_H",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_WIDGETS_LIB",
+		"UNICODE",
+		"WIN32",
+		"_CRT_NONSTDC_NO_WARNINGS",
+		"_CRT_SECURE_NO_WARNINGS",
+		"_UNICODE",
+		"obs_vst_EXPORTS"
+	],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"HAVE_OBSCONFIG_H",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_WIDGETS_LIB",
+		"UNICODE",
+		"WIN32",
+		"_CRT_NONSTDC_NO_WARNINGS",
+		"_CRT_SECURE_NO_WARNINGS",
+		"_UNICODE",
+		"obs_vst_EXPORTS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"D:/proj/github/obs/obs-studio/plugins/obs-vst/vst_header",
+		"D:/proj/github/obs/obs-studio/libobs",
+		"D:/proj/github/obs/obs-studio/build-x64/config",
+		"D:/program/Qt/Qt5.14.1/5.14.1/msvc2017_64/include",
+		"D:/program/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtWidgets",
+		"D:/program/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtGui",
+		"D:/program/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtANGLE",
+		"D:/program/Qt/Qt5.14.1/5.14.1/msvc2017_64/include/QtCore",
+		"D:/program/Qt/Qt5.14.1/5.14.1/msvc2017_64/mkspecs/win32-msvc"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "D:/proj/github/obs/obs-studio/build-x64/plugins/obs-vst/CMakeFiles/obs-vst_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "D:/proj/github/obs/obs-studio/build-x64/plugins/obs-vst/CMakeFiles/obs-vst_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "D:/proj/github/obs/obs-studio/build-x64/plugins/obs-vst/CMakeFiles/obs-vst_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "D:/proj/github/obs/obs-studio/build-x64/plugins/obs-vst/CMakeFiles/obs-vst_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "D:/proj/github/obs/obs-studio/build-x64/plugins/obs-vst/CMakeFiles/obs-vst_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "D:/program/Qt/Qt5.14.1/5.14.1/msvc2017_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 14,
+	"SETTINGS_FILE" : "D:/proj/github/obs/obs-studio/build-x64/plugins/obs-vst/CMakeFiles/obs-vst_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "D:/proj/github/obs/obs-studio/build-x64/plugins/obs-vst/CMakeFiles/obs-vst_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "D:/proj/github/obs/obs-studio/build-x64/plugins/obs-vst/CMakeFiles/obs-vst_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "D:/proj/github/obs/obs-studio/build-x64/plugins/obs-vst/CMakeFiles/obs-vst_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "D:/proj/github/obs/obs-studio/build-x64/plugins/obs-vst/CMakeFiles/obs-vst_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"D:/proj/github/obs/obs-studio/plugins/obs-vst/EditorWidget.cpp",
+			"Mu"
+		],
+		[ "D:/proj/github/obs/obs-studio/plugins/obs-vst/VSTPlugin.cpp", "Mu" ],
+		[ "D:/proj/github/obs/obs-studio/plugins/obs-vst/obs-vst.cpp", "Mu" ],
+		[
+			"D:/proj/github/obs/obs-studio/plugins/obs-vst/win/EditorWidget-win.cpp",
+			"Mu"
+		],
+		[
+			"D:/proj/github/obs/obs-studio/plugins/obs-vst/win/VSTPlugin-win.cpp",
+			"Mu"
+		]
+	],
+	"VERBOSITY" : 0
+}

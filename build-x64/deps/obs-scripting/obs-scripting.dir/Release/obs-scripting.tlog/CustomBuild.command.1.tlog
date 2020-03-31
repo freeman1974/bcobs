@@ -1,0 +1,38 @@
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\BUILD-X64\CMAKEFILES\DC6988221D878A5FB52567CC7254C1C7\SWIGPYRUN.H.RULE
+setlocal
+cd D:\proj\github\obs\obs-studio\build-x64\deps\obs-scripting
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\proj\github\obs\obs-tools\obs-deps2017\win64\swig\swig.exe -python -external-runtime swig/swigpyrun.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\BUILD-X64\CMAKEFILES\DC6988221D878A5FB52567CC7254C1C7\SWIGLUARUN.H.RULE
+setlocal
+cd D:\proj\github\obs\obs-studio\build-x64\deps\obs-scripting
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\proj\github\obs\obs-tools\obs-deps2017\win64\swig\swig.exe -lua -external-runtime swig/swigluarun.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\DEPS\OBS-SCRIPTING\CMAKELISTS.TXT
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/deps/obs-scripting/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

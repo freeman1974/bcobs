@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/proj/github/obs/obs-studio/plugins/win-wasapi/CMakeLists.txt
+  win-wasapi.cpp
+  enum-wasapi.cpp
+  plugin-main.cpp
+    正在创建库 D:/proj/github/obs/obs-studio/build-x64/plugins/win-wasapi/Release/win-wasapi.lib 和对象 D:/proj/github/obs/obs-studio/build-x64/plugins/win-wasapi/Release/win-wasapi.exp
+  win-wasapi.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\plugins\win-wasapi\Release\win-wasapi.dll

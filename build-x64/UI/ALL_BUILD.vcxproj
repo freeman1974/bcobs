@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0F7269E4-7B7D-3875-8243-1BDAC77CD9F4}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\UI;D:\proj\github\obs\obs-studio\UI;D:\proj\github\obs\obs-tools\obs-deps2017\win64\include;D:\proj\github\obs\obs-studio\deps\blake2\src;D:\proj\github\obs\obs-studio\UI\obs-frontend-api;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\deps\libff;D:\proj\github\obs\obs-studio\deps\json11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\UI;D:\proj\github\obs\obs-studio\UI;D:\proj\github\obs\obs-tools\obs-deps2017\win64\include;D:\proj\github\obs\obs-studio\deps\blake2\src;D:\proj\github\obs\obs-studio\UI\obs-frontend-api;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\deps\libff;D:\proj\github\obs\obs-studio\deps\json11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\UI;D:\proj\github\obs\obs-studio\UI;D:\proj\github\obs\obs-tools\obs-deps2017\win64\include;D:\proj\github\obs\obs-studio\deps\blake2\src;D:\proj\github\obs\obs-studio\UI\obs-frontend-api;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\deps\libff;D:\proj\github\obs\obs-studio\deps\json11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\UI;D:\proj\github\obs\obs-studio\UI;D:\proj\github\obs\obs-tools\obs-deps2017\win64\include;D:\proj\github\obs\obs-studio\deps\blake2\src;D:\proj\github\obs\obs-studio\UI\obs-frontend-api;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\deps\libff;D:\proj\github\obs\obs-studio\deps\json11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\UI\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/proj/github/obs/obs-studio/UI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/UI/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;D:\proj\github\obs\obs-studio\UI\forms\obs.qrc;D:\proj\github\obs\obs-studio\UI\ui-config.h.in;D:\proj\github\obs\obs-studio\cmake\Modules\FindFFmpeg.cmake;D:\proj\github\obs\obs-studio\cmake\Modules\FindLibcurl.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\FindPackageMessage.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\FindPkgConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\proj\github\obs\obs-studio\build-x64\UI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/proj/github/obs/obs-studio/UI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/UI/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;D:\proj\github\obs\obs-studio\UI\forms\obs.qrc;D:\proj\github\obs\obs-studio\UI\ui-config.h.in;D:\proj\github\obs\obs-studio\cmake\Modules\FindFFmpeg.cmake;D:\proj\github\obs\obs-studio\cmake\Modules\FindLibcurl.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\FindPackageMessage.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\FindPkgConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\proj\github\obs\obs-studio\build-x64\UI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/proj/github/obs/obs-studio/UI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/UI/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;D:\proj\github\obs\obs-studio\UI\forms\obs.qrc;D:\proj\github\obs\obs-studio\UI\ui-config.h.in;D:\proj\github\obs\obs-studio\cmake\Modules\FindFFmpeg.cmake;D:\proj\github\obs\obs-studio\cmake\Modules\FindLibcurl.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\FindPackageMessage.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\FindPkgConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\proj\github\obs\obs-studio\build-x64\UI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/proj/github/obs/obs-studio/UI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/UI/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Xml\Qt5XmlConfig.cmake;D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\lib\cmake\Qt5Xml\Qt5XmlConfigVersion.cmake;D:\proj\github\obs\obs-studio\UI\forms\obs.qrc;D:\proj\github\obs\obs-studio\UI\ui-config.h.in;D:\proj\github\obs\obs-studio\cmake\Modules\FindFFmpeg.cmake;D:\proj\github\obs\obs-studio\cmake\Modules\FindLibcurl.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\FindPackageMessage.cmake;D:\proj\github\obs\obs-tools\cmake-3.17.0\share\cmake-3.17\Modules\FindPkgConfig.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\proj\github\obs\obs-studio\build-x64\UI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\ZERO_CHECK.vcxproj">
+      <Project>{C1803EF6-F629-3922-93F2-0DA9AA51712C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\UI\frontend-plugins\decklink-output-ui\decklink-ouput-ui.vcxproj">
+      <Project>{F9D57263-2B1F-3E7C-90DB-FD79FA9AD45F}</Project>
+      <Name>decklink-ouput-ui</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\UI\frontend-plugins\frontend-tools\frontend-tools.vcxproj">
+      <Project>{F1AC998A-4C39-3A25-952A-0E7036656360}</Project>
+      <Name>frontend-tools</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\UI\obs.vcxproj">
+      <Project>{FF7D5FC8-B0C8-39EF-AA91-CB608364308F}</Project>
+      <Name>obs</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\UI\obs-frontend-api\obs-frontend-api.vcxproj">
+      <Project>{98B5CAC3-9F0B-3194-8F2B-1BFF13164B1F}</Project>
+      <Name>obs-frontend-api</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

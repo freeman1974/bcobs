@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-ffmpeg\obs-ffmpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-ffmpeg\obs-ffmpeg-audio-encoders.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-ffmpeg\obs-ffmpeg-nvenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-ffmpeg\obs-ffmpeg-output.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-ffmpeg\obs-ffmpeg-mux.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-ffmpeg\ffmpeg-encoded-output.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-ffmpeg\obs-ffmpeg-source.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-ffmpeg\jim-nvenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\obs-ffmpeg\jim-nvenc-helpers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\build-x64\plugins\obs-ffmpeg\obs-ffmpeg-config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-ffmpeg\obs-ffmpeg-formats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-ffmpeg\obs-ffmpeg-compat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-ffmpeg\ffmpeg-encoded-output.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\obs-ffmpeg\jim-nvenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\plugins\obs-ffmpeg\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7E98FA87-9F76-3651-BE5D-D2A33F6A21C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6A0CAF36-27C5-36BA-8775-5492AB2C0B5C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

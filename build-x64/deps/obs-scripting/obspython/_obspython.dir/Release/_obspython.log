@@ -1,0 +1,6 @@
+﻿  Swig compile obspython.i for python
+  Building Custom Rule D:/proj/github/obs/obs-studio/deps/obs-scripting/obspython/CMakeLists.txt
+  obspythonPYTHON_wrap.c
+  cstrcache.cpp
+    正在创建库 D:/proj/github/obs/obs-studio/build-x64/deps/obs-scripting/obspython/Release/_obspython.lib 和对象 D:/proj/github/obs/obs-studio/build-x64/deps/obs-scripting/obspython/Release/_obspython.exp
+  _obspython.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\deps\obs-scripting\obspython\Release\_obspython.pyd

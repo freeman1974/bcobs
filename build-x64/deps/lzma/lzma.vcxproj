@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{00A3FA32-134D-3933-BF8A-631529137672}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>lzma</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\proj\github\obs\obs-studio\build-x64\deps\lzma\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">lzma.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">lzma</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\proj\github\obs\obs-studio\build-x64\deps\lzma\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">lzma.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">lzma</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\proj\github\obs\obs-studio\build-x64\deps\lzma\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">lzma.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">lzma</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\proj\github\obs\obs-studio\build-x64\deps\lzma\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">lzma.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">lzma</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\deps\lzma;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\api;D:\proj\github\obs\obs-studio\deps\lzma\common;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\check;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\delta;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lz;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lzma;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\rangecoder;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\simple;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitDefaultLibName>true</OmitDefaultLibName>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DEBUG=1;_DEBUG=1;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;HAVE_CONFIG_H;TUKLIB_SYMBOL_PREFIX=lzma_;inline=_inline;restrict=__restrict;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;DEBUG=1;_DEBUG=1;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;HAVE_CONFIG_H;TUKLIB_SYMBOL_PREFIX=lzma_;inline=_inline;restrict=__restrict;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\deps\lzma;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\api;D:\proj\github\obs\obs-studio\deps\lzma\common;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\check;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\delta;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lz;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lzma;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\rangecoder;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\simple;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\deps\lzma;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\api;D:\proj\github\obs\obs-studio\deps\lzma\common;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\check;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\delta;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lz;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lzma;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\rangecoder;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\simple;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\deps\lzma;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\api;D:\proj\github\obs\obs-studio\deps\lzma\common;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\check;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\delta;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lz;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lzma;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\rangecoder;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\simple;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitDefaultLibName>true</OmitDefaultLibName>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;HAVE_CONFIG_H;TUKLIB_SYMBOL_PREFIX=lzma_;inline=_inline;restrict=__restrict;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;HAVE_CONFIG_H;TUKLIB_SYMBOL_PREFIX=lzma_;inline=_inline;restrict=__restrict;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\deps\lzma;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\api;D:\proj\github\obs\obs-studio\deps\lzma\common;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\check;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\delta;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lz;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lzma;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\rangecoder;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\simple;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\deps\lzma;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\api;D:\proj\github\obs\obs-studio\deps\lzma\common;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\check;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\delta;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lz;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lzma;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\rangecoder;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\simple;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\deps\lzma;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\api;D:\proj\github\obs\obs-studio\deps\lzma\common;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\check;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\delta;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lz;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lzma;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\rangecoder;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\simple;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitDefaultLibName>true</OmitDefaultLibName>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;HAVE_CONFIG_H;TUKLIB_SYMBOL_PREFIX=lzma_;inline=_inline;restrict=__restrict;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;HAVE_CONFIG_H;TUKLIB_SYMBOL_PREFIX=lzma_;inline=_inline;restrict=__restrict;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\deps\lzma;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\api;D:\proj\github\obs\obs-studio\deps\lzma\common;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\check;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\delta;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lz;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lzma;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\rangecoder;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\simple;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\deps\lzma;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\api;D:\proj\github\obs\obs-studio\deps\lzma\common;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\check;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\delta;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lz;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lzma;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\rangecoder;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\simple;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\deps\lzma;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\api;D:\proj\github\obs\obs-studio\deps\lzma\common;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\check;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\delta;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lz;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lzma;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\rangecoder;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\simple;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitDefaultLibName>true</OmitDefaultLibName>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;HAVE_CONFIG_H;TUKLIB_SYMBOL_PREFIX=lzma_;inline=_inline;restrict=__restrict;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;HAVE_CONFIG_H;TUKLIB_SYMBOL_PREFIX=lzma_;inline=_inline;restrict=__restrict;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\deps\lzma;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\api;D:\proj\github\obs\obs-studio\deps\lzma\common;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\check;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\delta;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lz;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lzma;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\rangecoder;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\simple;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\deps\lzma;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\api;D:\proj\github\obs\obs-studio\deps\lzma\common;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\check;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\delta;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lz;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lzma;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\rangecoder;D:\proj\github\obs\obs-studio\deps\lzma\liblzma\simple;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\deps\lzma\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/proj/github/obs/obs-studio/deps/lzma/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/deps/lzma/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\proj\github\obs\obs-studio\build-x64\deps\lzma\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/proj/github/obs/obs-studio/deps/lzma/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/deps/lzma/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\proj\github\obs\obs-studio\build-x64\deps\lzma\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/proj/github/obs/obs-studio/deps/lzma/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/deps/lzma/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\proj\github\obs\obs-studio\build-x64\deps\lzma\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/proj/github/obs/obs-studio/deps/lzma/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/deps/lzma/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\proj\github\obs\obs-studio\build-x64\deps\lzma\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\check\check.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\check\crc32_table.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\check\crc32_fast.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\check\crc64_table.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\check\crc64_fast.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\check\sha256.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\common.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\block_util.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\easy_preset.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\filter_common.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\hardware_physmem.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\index.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\stream_flags_common.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\vli_size.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\alone_encoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\block_buffer_encoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\block_encoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\block_header_encoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\easy_buffer_encoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\easy_encoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\easy_encoder_memusage.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\filter_buffer_encoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\filter_encoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\filter_flags_encoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\index_encoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\stream_buffer_encoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\stream_encoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\stream_flags_encoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\vli_encoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\alone_decoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\auto_decoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\block_buffer_decoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\block_decoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\block_header_decoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\easy_decoder_memusage.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\filter_buffer_decoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\filter_decoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\filter_flags_decoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\index_decoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\index_hash.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\stream_buffer_decoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\stream_decoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\stream_flags_decoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\common\vli_decoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\delta\delta_common.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\delta\delta_encoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\delta\delta_decoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lz\lz_encoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lz\lz_encoder_mf.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lz\lz_decoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lzma\lzma_encoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lzma\lzma_encoder_presets.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lzma\lzma_encoder_optimum_fast.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lzma\lzma_encoder_optimum_normal.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lzma\fastpos_table.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lzma\lzma_decoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lzma\lzma2_encoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\lzma\lzma2_decoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\rangecoder\price_table.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\simple\simple_coder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\simple\simple_encoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\simple\simple_decoder.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\simple\arm.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\simple\armthumb.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\simple\ia64.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\simple\powerpc.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\simple\sparc.c" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\lzma\liblzma\simple\x86.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\ZERO_CHECK.vcxproj">
+      <Project>{C1803EF6-F629-3922-93F2-0DA9AA51712C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,15 @@
+﻿  Building Custom Rule D:/proj/github/obs/obs-studio/libobs-d3d11/CMakeLists.txt
+  d3d11-indexbuffer.cpp
+  d3d11-samplerstate.cpp
+  d3d11-shader.cpp
+  d3d11-shaderprocessor.cpp
+  d3d11-stagesurf.cpp
+  d3d11-subsystem.cpp
+  d3d11-texture2d.cpp
+  d3d11-texture3d.cpp
+  d3d11-vertexbuffer.cpp
+  d3d11-duplicator.cpp
+  d3d11-rebuild.cpp
+  d3d11-zstencilbuffer.cpp
+    正在创建库 D:/proj/github/obs/obs-studio/build-x64/libobs-d3d11/Release/libobs-d3d11.lib 和对象 D:/proj/github/obs/obs-studio/build-x64/libobs-d3d11/Release/libobs-d3d11.exp
+  libobs-d3d11.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\libobs-d3d11\Release\libobs-d3d11.dll

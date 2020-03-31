@@ -1,0 +1,22 @@
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\DEPS\OBS-SCRIPTING\OBSLUA\OBSLUA.I
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -E make_directory D:/proj/github/obs/obs-studio/build-x64/deps/obs-scripting/obslua D:/proj/github/obs/obs-studio/build-x64/deps/obs-scripting/obslua/CMakeFiles/obslua.dir
+if %errorlevel% neq 0 goto :cmEnd
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -E env SWIG_LIB=D:/proj/github/obs/obs-tools/obs-deps2017/win64/swig/Lib D:/proj/github/obs/obs-tools/obs-deps2017/win64/swig/swig.exe -lua -outdir D:/proj/github/obs/obs-studio/build-x64/deps/obs-scripting/obslua -ID:/proj/github/obs/obs-studio/UI/obs-frontend-api -ID:/proj/github/obs/obs-studio/libobs -ID:/proj/github/obs/obs-studio/deps/obs-scripting -ID:/proj/github/obs/obs-studio/build-x64/deps/obs-scripting -ID:/proj/github/obs/obs-tools/obs-deps2017/win64/include/python -ID:/proj/github/obs/obs-tools/obs-deps2017/win64/include/luajit -ID:/proj/github/obs/obs-studio/deps/obs-scripting/obslua -o D:/proj/github/obs/obs-studio/build-x64/deps/obs-scripting/obslua/CMakeFiles/obslua.dir/obsluaLUA_wrap.c D:/proj/github/obs/obs-studio/deps/obs-scripting/obslua/obslua.i
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\DEPS\OBS-SCRIPTING\OBSLUA\CMAKELISTS.TXT
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/deps/obs-scripting/obslua/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

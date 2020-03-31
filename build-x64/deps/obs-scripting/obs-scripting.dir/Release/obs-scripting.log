@@ -1,0 +1,14 @@
+﻿  Scripting plugin: Building Python SWIG interface header
+  Scripting: Building Lua SWIG interface header
+  Building Custom Rule D:/proj/github/obs/obs-studio/deps/obs-scripting/CMakeLists.txt
+  obs-scripting.c
+  obs-scripting-logging.c
+  obs-scripting-python.c
+  obs-scripting-python-frontend.c
+  obs-scripting-python-import.c
+  obs-scripting-lua.c
+  obs-scripting-lua-source.c
+  obs-scripting-lua-frontend.c
+  cstrcache.cpp
+    正在创建库 D:/proj/github/obs/obs-studio/build-x64/deps/obs-scripting/Release/obs-scripting.lib 和对象 D:/proj/github/obs/obs-studio/build-x64/deps/obs-scripting/Release/obs-scripting.exp
+  obs-scripting.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\deps\obs-scripting\Release\obs-scripting.dll

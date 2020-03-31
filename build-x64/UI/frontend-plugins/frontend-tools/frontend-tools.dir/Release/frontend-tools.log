@@ -1,0 +1,21 @@
+﻿  Automatic MOC for target frontend-tools
+  Generating ui_auto-scene-switcher.h
+  Generating ui_output-timer.h
+  Generating ui_scripts.h
+  Building Custom Rule D:/proj/github/obs/obs-studio/UI/frontend-plugins/frontend-tools/CMakeLists.txt
+  mocs_compilation.cpp
+  auto-scene-switcher.cpp
+  output-timer.cpp
+  properties-view.cpp
+  horizontal-scroll-area.cpp
+D:\proj\github\obs\obs-studio\UI\properties-view.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  vertical-scroll-area.cpp
+  double-slider.cpp
+  slider-ignorewheel.cpp
+  combobox-ignorewheel.cpp
+  spinbox-ignorewheel.cpp
+  scripts.cpp
+  auto-scene-switcher-win.cpp
+  frontend-tools.c
+    正在创建库 D:/proj/github/obs/obs-studio/build-x64/UI/frontend-plugins/frontend-tools/Release/frontend-tools.lib 和对象 D:/proj/github/obs/obs-studio/build-x64/UI/frontend-plugins/frontend-tools/Release/frontend-tools.exp
+  frontend-tools.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\UI\frontend-plugins\frontend-tools\Release\frontend-tools.dll

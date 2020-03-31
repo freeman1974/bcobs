@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/proj/github/obs/obs-studio/deps/file-updater/CMakeLists.txt
+  file-updater.c
+  file-updater.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\deps\file-updater\Release\file-updater.lib

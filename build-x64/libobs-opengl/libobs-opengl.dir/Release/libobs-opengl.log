@@ -1,0 +1,15 @@
+﻿  Building Custom Rule D:/proj/github/obs/obs-studio/libobs-opengl/CMakeLists.txt
+  gl-windows.c
+  gl-helpers.c
+  gl-indexbuffer.c
+  gl-shader.c
+  gl-shaderparser.c
+  gl-stagesurf.c
+  gl-subsystem.c
+  gl-texture2d.c
+  gl-texture3d.c
+  gl-texturecube.c
+  gl-vertexbuffer.c
+  gl-zstencil.c
+    正在创建库 D:/proj/github/obs/obs-studio/build-x64/libobs-opengl/Release/libobs-opengl.lib 和对象 D:/proj/github/obs/obs-studio/build-x64/libobs-opengl/Release/libobs-opengl.exp
+  libobs-opengl.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\libobs-opengl\Release\libobs-opengl.dll

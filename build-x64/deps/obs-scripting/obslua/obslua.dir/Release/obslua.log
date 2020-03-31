@@ -1,0 +1,11 @@
+﻿  Swig compile obslua.i for lua
+  Building Custom Rule D:/proj/github/obs/obs-studio/deps/obs-scripting/obslua/CMakeLists.txt
+  obsluaLUA_wrap.c
+D:\proj\github\obs\obs-studio\build-x64\deps\obs-scripting\obslua\CMakeFiles\obslua.dir\obsluaLUA_wrap.c(1372,24): warning C4189: “begin”: 局部变量已初始化但不引用
+D:\proj\github\obs\obs-studio\build-x64\deps\obs-scripting\obslua\CMakeFiles\obslua.dir\obsluaLUA_wrap.c(1528,95): warning C4100: “first_arg”: 未引用的形参
+D:\proj\github\obs\obs-studio\build-x64\deps\obs-scripting\obslua\CMakeFiles\obslua.dir\obsluaLUA_wrap.c(1566,90): warning C4100: “first_arg”: 未引用的形参
+D:\proj\github\obs\obs-studio\build-x64\deps\obs-scripting\obslua\CMakeFiles\obslua.dir\obsluaLUA_wrap.c(2257,24): warning C4189: “begin”: 局部变量已初始化但不引用
+D:\proj\github\obs\obs-studio\build-x64\deps\obs-scripting\obslua\CMakeFiles\obslua.dir\obsluaLUA_wrap.c(2291,24): warning C4189: “begin”: 局部变量已初始化但不引用
+  cstrcache.cpp
+    正在创建库 D:/proj/github/obs/obs-studio/build-x64/deps/obs-scripting/obslua/Release/obslua.lib 和对象 D:/proj/github/obs/obs-studio/build-x64/deps/obs-scripting/obslua/Release/obslua.exp
+  obslua.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\deps\obs-scripting\obslua\Release\obslua.dll

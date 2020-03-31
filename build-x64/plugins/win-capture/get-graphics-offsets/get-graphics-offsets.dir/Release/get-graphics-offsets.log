@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/proj/github/obs/obs-studio/plugins/win-capture/get-graphics-offsets/CMakeLists.txt
+  get-graphics-offsets.c
+  dxgi-offsets.cpp
+  d3d8-offsets.cpp
+  d3d9-offsets.cpp
+  get-graphics-offsets.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\plugins\win-capture\get-graphics-offsets\Release\get-graphics-offsets64.exe

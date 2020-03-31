@@ -1,0 +1,109 @@
+﻿  Automatic MOC for target obs
+  Generating ui_NameDialog.h
+  Generating ui_AutoConfigStartPage.h
+  Generating ui_AutoConfigVideoPage.h
+  Generating ui_AutoConfigStreamPage.h
+  Generating ui_AutoConfigTestPage.h
+  Generating ui_ColorSelect.h
+  Generating ui_OBSLogReply.h
+  Generating ui_OBSBasic.h
+  Generating ui_OBSBasicTransform.h
+  Generating ui_OBSBasicFilters.h
+  Generating ui_OBSBasicSettings.h
+  Generating ui_OBSBasicSourceSelect.h
+  Generating ui_OBSBasicInteraction.h
+  Generating ui_OBSExtraBrowsers.h
+  Generating ui_OBSUpdate.h
+  Generating ui_OBSRemux.h
+  Generating ui_OBSImporter.h
+  Generating ui_OBSAbout.h
+  Generating qrc_obs.cpp
+  Building Custom Rule D:/proj/github/obs/obs-studio/UI/CMakeLists.txt
+  mocs_compilation.cpp
+  platform-windows.cpp
+  update-window.cpp
+  win-update.cpp
+  win-update-helpers.cpp
+  json11.cpp
+  obs-app.cpp
+  window-dock.cpp
+  api-interface.cpp
+  window-basic-main.cpp
+  window-basic-stats.cpp
+  window-basic-filters.cpp
+  window-basic-settings.cpp
+  window-basic-interaction.cpp
+  window-basic-properties.cpp
+  window-basic-auto-config.cpp
+  window-basic-main-outputs.cpp
+  window-basic-source-select.cpp
+  window-basic-settings-stream.cpp
+  window-basic-auto-config-test.cpp
+  window-basic-main-scene-collections.cpp
+  window-basic-main-transitions.cpp
+  window-basic-main-dropfiles.cpp
+  window-basic-main-profiles.cpp
+  window-basic-main-browser.cpp
+  window-basic-main-icons.cpp
+  window-basic-status-bar.cpp
+  window-basic-adv-audio.cpp
+  window-basic-transform.cpp
+  window-basic-preview.cpp
+  window-basic-about.cpp
+  window-importer.cpp
+  window-namedialog.cpp
+  window-log-reply.cpp
+  window-projector.cpp
+  window-remux.cpp
+  auth-base.cpp
+  source-tree.cpp
+  scene-tree.cpp
+  properties-view.cpp
+D:\proj\github\obs\obs-studio\UI\properties-view.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  focus-list.cpp
+  menu-button.cpp
+  double-slider.cpp
+  slider-ignorewheel.cpp
+  combobox-ignorewheel.cpp
+  spinbox-ignorewheel.cpp
+  record-button.cpp
+  ui-validation.cpp
+  url-push-button.cpp
+  volume-control.cpp
+  adv-audio-control.cpp
+  item-widget-helpers.cpp
+  horizontal-scroll-area.cpp
+  vertical-scroll-area.cpp
+  visibility-item-widget.cpp
+  slider-absoluteset-style.cpp
+  qt-display.cpp
+  crash-report.cpp
+  hotkey-edit.cpp
+  source-label.cpp
+  remote-text.cpp
+  audio-encoders.cpp
+  qt-wrappers.cpp
+  importers.cpp
+  classic.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.25.28610\include\memory(1758,9): warning C5205: 删除具有非虚拟析构函数的抽象类 "Importer" 将导致未定义的行为 (编译源文件 D:\proj\github\obs\obs-studio\UI\importers\importers.cpp)
+D:\proj\github\obs\obs-studio\UI\importers\importers.hpp(39): message : 参见“Importer”的声明 (编译源文件 D:\proj\github\obs\obs-studio\UI\importers\importers.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.25.28610\include\memory(1756): message : 在编译 类 模板 成员函数“void std::default_delete<Importer>::operator ()(_Ty *) noexcept const”时
+          with
+          [
+              _Ty=Importer
+          ] (编译源文件 D:\proj\github\obs\obs-studio\UI\importers\importers.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.25.28610\include\memory(1873): message : 查看对正在编译的函数 模板 实例化“void std::default_delete<Importer>::operator ()(_Ty *) noexcept const”的引用
+          with
+          [
+              _Ty=Importer
+          ] (编译源文件 D:\proj\github\obs\obs-studio\UI\importers\importers.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.25.28610\include\memory(1795): message : 查看对正在编译的 类 模板 实例化“std::default_delete<Importer>”的引用 (编译源文件 D:\proj\github\obs\obs-studio\UI\importers\importers.cpp)
+D:\proj\github\obs\obs-studio\UI\importers\importers.cpp(29): message : 查看对正在编译的 类 模板 实例化“std::unique_ptr<Importer,std::default_delete<Importer>>”的引用
+  sl.cpp
+  studio.cpp
+  xsplit.cpp
+  qrc_obs.cpp
+  ff-util.c
+D:\proj\github\obs\obs-tools\obs-deps2017\win64\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+    正在创建库 D:/proj/github/obs/obs-studio/build-x64/UI/Release/obs64.lib 和对象 D:/proj/github/obs/obs-studio/build-x64/UI/Release/obs64.exp
+  obs.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\UI\Release\obs64.exe

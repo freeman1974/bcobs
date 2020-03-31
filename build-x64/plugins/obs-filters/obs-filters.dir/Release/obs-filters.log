@@ -1,0 +1,26 @@
+﻿  Building Custom Rule D:/proj/github/obs/obs-studio/plugins/obs-filters/CMakeLists.txt
+  obs-filters.c
+  color-correction-filter.c
+  async-delay-filter.c
+  gpu-delay.c
+  crop-filter.c
+  scale-filter.c
+  scroll-filter.c
+  chroma-key-filter.c
+  color-key-filter.c
+  color-grade-filter.c
+  sharpness-filter.c
+  gain-filter.c
+  noise-gate-filter.c
+  mask-filter.c
+  invert-audio-polarity.c
+  compressor-filter.c
+  limiter-filter.c
+  expander-filter.c
+  luma-key-filter.c
+  noise-suppress-filter.c
+  speexdsp.lib(preprocess.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+    正在创建库 D:/proj/github/obs/obs-studio/build-x64/plugins/obs-filters/Release/obs-filters.lib 和对象 D:/proj/github/obs/obs-studio/build-x64/plugins/obs-filters/Release/obs-filters.exp
+  正在生成代码
+  已完成代码的生成
+  obs-filters.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\plugins\obs-filters\Release\obs-filters.dll

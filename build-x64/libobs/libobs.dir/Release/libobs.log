@@ -1,0 +1,81 @@
+﻿  Building Custom Rule D:/proj/github/obs/obs-studio/libobs/CMakeLists.txt
+  calldata.c
+  decl.c
+  signal.c
+  proc.c
+  graphics-ffmpeg.c
+  quat.c
+  effect-parser.c
+D:\proj\github\obs\obs-tools\obs-deps2017\win64\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\libobs\graphics\graphics-ffmpeg.c)
+  axisang.c
+  vec4.c
+  vec2.c
+  libnsgif.c
+  texture-render.c
+  image-file.c
+  bounds.c
+  matrix3.c
+  matrix4.c
+  vec3.c
+  graphics.c
+  shader-parser.c
+  plane.c
+  effect.c
+  math-extra.c
+  graphics-imports.c
+  video-io.c
+  video-fourcc.c
+  video-matrices.c
+  audio-io.c
+  video-frame.c
+  format-conversion.c
+  audio-resampler-ffmpeg.c
+  video-scaler-ffmpeg.c
+  media-remux.c
+  array-serializer.c
+  file-serializer.c
+  base.c
+D:\proj\github\obs\obs-tools\obs-deps2017\win64\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\libobs\media-io\media-remux.c)
+D:\proj\github\obs\obs-tools\obs-deps2017\win64\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\libobs\media-io\audio-resampler-ffmpeg.c)
+D:\proj\github\obs\obs-tools\obs-deps2017\win64\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\libobs\media-io\video-scaler-ffmpeg.c)
+  platform.c
+  cf-lexer.c
+  bmem.c
+  config-file.c
+  lexer.c
+  dstr.c
+  utf8.c
+  crc32.c
+  text-lookup.c
+  cf-parser.c
+  profiler.c
+  obs-win-crash-handler.c
+  obs-windows.c
+  threading-windows.c
+  pipe-windows.c
+  platform-windows.c
+  obs-audio-controls.c
+  obs-avc.c
+  obs-encoder.c
+  obs-service.c
+  obs-source.c
+  obs-source-deinterlace.c
+  obs-source-transition.c
+  obs-output.c
+  obs-output-delay.c
+  obs.c
+  obs-properties.c
+  obs-data.c
+  obs-hotkey.c
+  obs-hotkey-name-map.c
+  obs-module.c
+  obs-display.c
+  obs-view.c
+  obs-scene.c
+  obs-audio.c
+  obs-video-gpu-encode.c
+  obs-video.c
+  wasapi-output.c
+  wasapi-enum-devices.c
+    正在创建库 D:/proj/github/obs/obs-studio/build-x64/libobs/Release/obs.lib 和对象 D:/proj/github/obs/obs-studio/build-x64/libobs/Release/obs.exp
+  libobs.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\libobs\Release\obs.dll

@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/proj/github/obs/obs-studio/deps/blake2/CMakeLists.txt
+  blake2b-ref.c
+  blake2.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\deps\blake2\Release\blake2.lib

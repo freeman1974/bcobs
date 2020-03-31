@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/proj/github/obs/obs-studio/deps/ipc-util/CMakeLists.txt
+  pipe-windows.c
+  ipc-util.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\deps\ipc-util\Release\ipc-util.lib

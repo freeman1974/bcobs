@@ -1,0 +1,5 @@
+﻿  Building Custom Rule D:/proj/github/obs/obs-studio/plugins/obs-x264/CMakeLists.txt
+  obs-x264.c
+  obs-x264-plugin-main.c
+    正在创建库 D:/proj/github/obs/obs-studio/build-x64/plugins/obs-x264/Release/obs-x264.lib 和对象 D:/proj/github/obs/obs-studio/build-x64/plugins/obs-x264/Release/obs-x264.exp
+  obs-x264.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\plugins\obs-x264\Release\obs-x264.dll

@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/proj/github/obs/obs-studio/plugins/obs-ffmpeg/ffmpeg-mux/CMakeLists.txt
+  ffmpeg-mux.c
+D:\proj\github\obs\obs-tools\obs-deps2017\win64\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  obs-ffmpeg-mux.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\plugins\obs-ffmpeg\ffmpeg-mux\Release\obs-ffmpeg-mux.exe

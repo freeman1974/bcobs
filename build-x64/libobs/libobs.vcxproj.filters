@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\callback\calldata.c">
+      <Filter>callback\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\callback\decl.c">
+      <Filter>callback\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\callback\signal.c">
+      <Filter>callback\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\callback\proc.c">
+      <Filter>callback\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\graphics\graphics-ffmpeg.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\graphics\quat.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\graphics\effect-parser.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\graphics\axisang.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\graphics\vec4.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\graphics\vec2.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\graphics\libnsgif\libnsgif.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\graphics\texture-render.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\graphics\image-file.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\graphics\bounds.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\graphics\matrix3.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\graphics\matrix4.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\graphics\vec3.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\graphics\graphics.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\graphics\shader-parser.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\graphics\plane.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\graphics\effect.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\graphics\math-extra.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\graphics\graphics-imports.c">
+      <Filter>graphics\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\media-io\video-io.c">
+      <Filter>media-io\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\media-io\video-fourcc.c">
+      <Filter>media-io\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\media-io\video-matrices.c">
+      <Filter>media-io\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\media-io\audio-io.c">
+      <Filter>media-io\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\media-io\video-frame.c">
+      <Filter>media-io\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\media-io\format-conversion.c">
+      <Filter>media-io\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\media-io\audio-resampler-ffmpeg.c">
+      <Filter>media-io\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\media-io\video-scaler-ffmpeg.c">
+      <Filter>media-io\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\media-io\media-remux.c">
+      <Filter>media-io\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\util\array-serializer.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\util\file-serializer.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\util\base.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\util\platform.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\util\cf-lexer.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\util\bmem.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\util\config-file.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\util\lexer.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\util\dstr.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\util\utf8.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\util\crc32.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\util\text-lookup.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\util\cf-parser.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\util\profiler.c">
+      <Filter>util\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\obs-win-crash-handler.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\obs-windows.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\util\threading-windows.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\util\pipe-windows.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\util\platform-windows.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\obs-audio-controls.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\obs-avc.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\obs-encoder.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\obs-service.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\obs-source.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\obs-source-deinterlace.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\obs-source-transition.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\obs-output.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\obs-output-delay.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\obs.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\obs-properties.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\obs-data.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\obs-hotkey.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\obs-hotkey-name-map.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\obs-module.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\obs-display.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\obs-view.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\obs-scene.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\obs-audio.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\obs-video-gpu-encode.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\obs-video.c">
+      <Filter>libobs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\audio-monitoring\win32\wasapi-output.c">
+      <Filter>audio-monitoring\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\libobs\audio-monitoring\win32\wasapi-enum-devices.c">
+      <Filter>audio-monitoring\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\build-x64\config\obsconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\obs-config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\callback\calldata.h">
+      <Filter>callback\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\callback\decl.h">
+      <Filter>callback\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\callback\proc.h">
+      <Filter>callback\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\callback\signal.h">
+      <Filter>callback\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\graphics\half.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\graphics\plane.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\graphics\quat.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\graphics\input.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\graphics\axisang.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\graphics\shader-parser.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\graphics\effect.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\graphics\math-defs.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\graphics\matrix4.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\graphics\graphics.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\graphics\graphics-internal.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\graphics\libnsgif\libnsgif.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\graphics\device-exports.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\graphics\image-file.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\graphics\vec2.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\graphics\vec4.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\graphics\matrix3.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\graphics\vec3.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\graphics\math-extra.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\graphics\bounds.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\graphics\effect-parser.h">
+      <Filter>graphics\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\media-io\media-io-defs.h">
+      <Filter>media-io\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\media-io\video-io.h">
+      <Filter>media-io\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\media-io\audio-io.h">
+      <Filter>media-io\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\media-io\audio-math.h">
+      <Filter>media-io\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\media-io\video-frame.h">
+      <Filter>media-io\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\media-io\format-conversion.h">
+      <Filter>media-io\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\media-io\audio-resampler.h">
+      <Filter>media-io\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\media-io\video-scaler.h">
+      <Filter>media-io\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\media-io\media-remux.h">
+      <Filter>media-io\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\media-io\frame-rate.h">
+      <Filter>media-io\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\curl\curl-helper.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\sse-intrin.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\array-serializer.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\file-serializer.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\utf8.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\crc32.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\base.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\text-lookup.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\bmem.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\c99defs.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\util_uint128.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\cf-parser.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\threading.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\pipe.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\cf-lexer.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\darray.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\circlebuf.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\dstr.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\serializer.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\config-file.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\lexer.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\platform.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\profiler.h">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\profiler.hpp">
+      <Filter>util\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\threading-windows.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\windows\win-registry.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\windows\win-version.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\windows\ComPtr.hpp">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\windows\CoTaskMemPtr.hpp">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\windows\HRError.hpp">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\util\windows\WinHandle.hpp">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\obs-audio-controls.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\obs-defs.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\obs-avc.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\obs-encoder.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\obs-service.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\obs-internal.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\obs.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\obs-ui.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\obs-properties.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\obs-data.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\obs-interaction.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\obs-hotkey.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\obs-hotkeys.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\obs-module.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\obs-scene.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\obs-source.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\obs-output.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\obs-ffmpeg-compat.h">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\obs.hpp">
+      <Filter>libobs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\libobs\audio-monitoring\win32\wasapi-output.h">
+      <Filter>audio-monitoring\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\libobs\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7E98FA87-9F76-3651-BE5D-D2A33F6A21C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio-monitoring">
+      <UniqueIdentifier>{6C7F6C69-D549-3D4D-9019-DF4DA1FBD786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio-monitoring\Header Files">
+      <UniqueIdentifier>{485824C7-1C8D-3463-B831-76D22159E9EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio-monitoring\Source Files">
+      <UniqueIdentifier>{80AD1DC6-B7F7-3F20-8E78-CC5A83A1F219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="callback">
+      <UniqueIdentifier>{E03ED199-01DB-3EB5-9047-6686AB64445B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="callback\Header Files">
+      <UniqueIdentifier>{84BA0C06-61CB-3ADE-9F27-072250464CF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="callback\Source Files">
+      <UniqueIdentifier>{2A715639-5AA7-32C3-9AC5-F487F65D817D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics">
+      <UniqueIdentifier>{2DDD051E-D58A-3275-8652-93883193DD0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\Header Files">
+      <UniqueIdentifier>{2605ED6B-BE9B-312E-B4BE-C189B8965617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\Source Files">
+      <UniqueIdentifier>{74E23CDC-7F8B-30A0-997E-2E85E5E38F8E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libobs">
+      <UniqueIdentifier>{5CF1BAF3-ED37-3444-BE67-5F5252387281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libobs\Header Files">
+      <UniqueIdentifier>{0116976B-F46E-33E0-BE35-BC0C6771C568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libobs\Source Files">
+      <UniqueIdentifier>{5DD207D4-2743-3A06-9FE3-3BF3725690F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="media-io">
+      <UniqueIdentifier>{FC8B6C21-6387-3ED3-A781-F6D725384AC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="media-io\Header Files">
+      <UniqueIdentifier>{30899AC2-6554-3C47-A79C-003284BB84AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="media-io\Source Files">
+      <UniqueIdentifier>{A3F923CD-B3AE-35BA-8CA7-7DD77890C5E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{F90ECE4E-858E-3485-A9A7-B37CDDBD1ABC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\Header Files">
+      <UniqueIdentifier>{ACFD52B0-DD0A-3E3D-9B36-48908EB6DE91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\Source Files">
+      <UniqueIdentifier>{3D6F534E-013B-3961-9787-A33903346E5E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

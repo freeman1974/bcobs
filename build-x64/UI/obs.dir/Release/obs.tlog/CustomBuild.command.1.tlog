@@ -1,0 +1,200 @@
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\UI\FORMS\NAMEDIALOG.UI
+setlocal
+D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic.exe -o D:/proj/github/obs/obs-studio/build-x64/UI/ui_NameDialog.h D:/proj/github/obs/obs-studio/UI/forms/NameDialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\UI\FORMS\AUTOCONFIGSTARTPAGE.UI
+setlocal
+D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic.exe -o D:/proj/github/obs/obs-studio/build-x64/UI/ui_AutoConfigStartPage.h D:/proj/github/obs/obs-studio/UI/forms/AutoConfigStartPage.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\UI\FORMS\AUTOCONFIGVIDEOPAGE.UI
+setlocal
+D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic.exe -o D:/proj/github/obs/obs-studio/build-x64/UI/ui_AutoConfigVideoPage.h D:/proj/github/obs/obs-studio/UI/forms/AutoConfigVideoPage.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\UI\FORMS\AUTOCONFIGSTREAMPAGE.UI
+setlocal
+D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic.exe -o D:/proj/github/obs/obs-studio/build-x64/UI/ui_AutoConfigStreamPage.h D:/proj/github/obs/obs-studio/UI/forms/AutoConfigStreamPage.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\UI\FORMS\AUTOCONFIGTESTPAGE.UI
+setlocal
+D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic.exe -o D:/proj/github/obs/obs-studio/build-x64/UI/ui_AutoConfigTestPage.h D:/proj/github/obs/obs-studio/UI/forms/AutoConfigTestPage.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\UI\FORMS\COLORSELECT.UI
+setlocal
+D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic.exe -o D:/proj/github/obs/obs-studio/build-x64/UI/ui_ColorSelect.h D:/proj/github/obs/obs-studio/UI/forms/ColorSelect.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\UI\FORMS\OBSLOGREPLY.UI
+setlocal
+D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic.exe -o D:/proj/github/obs/obs-studio/build-x64/UI/ui_OBSLogReply.h D:/proj/github/obs/obs-studio/UI/forms/OBSLogReply.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\UI\FORMS\OBSBASIC.UI
+setlocal
+D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic.exe -o D:/proj/github/obs/obs-studio/build-x64/UI/ui_OBSBasic.h D:/proj/github/obs/obs-studio/UI/forms/OBSBasic.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\UI\FORMS\OBSBASICTRANSFORM.UI
+setlocal
+D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic.exe -o D:/proj/github/obs/obs-studio/build-x64/UI/ui_OBSBasicTransform.h D:/proj/github/obs/obs-studio/UI/forms/OBSBasicTransform.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\UI\FORMS\OBSBASICFILTERS.UI
+setlocal
+D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic.exe -o D:/proj/github/obs/obs-studio/build-x64/UI/ui_OBSBasicFilters.h D:/proj/github/obs/obs-studio/UI/forms/OBSBasicFilters.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\UI\FORMS\OBSBASICSETTINGS.UI
+setlocal
+D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic.exe -o D:/proj/github/obs/obs-studio/build-x64/UI/ui_OBSBasicSettings.h D:/proj/github/obs/obs-studio/UI/forms/OBSBasicSettings.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\UI\FORMS\OBSBASICSOURCESELECT.UI
+setlocal
+D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic.exe -o D:/proj/github/obs/obs-studio/build-x64/UI/ui_OBSBasicSourceSelect.h D:/proj/github/obs/obs-studio/UI/forms/OBSBasicSourceSelect.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\UI\FORMS\OBSBASICINTERACTION.UI
+setlocal
+D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic.exe -o D:/proj/github/obs/obs-studio/build-x64/UI/ui_OBSBasicInteraction.h D:/proj/github/obs/obs-studio/UI/forms/OBSBasicInteraction.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\UI\FORMS\OBSEXTRABROWSERS.UI
+setlocal
+D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic.exe -o D:/proj/github/obs/obs-studio/build-x64/UI/ui_OBSExtraBrowsers.h D:/proj/github/obs/obs-studio/UI/forms/OBSExtraBrowsers.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\UI\FORMS\OBSUPDATE.UI
+setlocal
+D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic.exe -o D:/proj/github/obs/obs-studio/build-x64/UI/ui_OBSUpdate.h D:/proj/github/obs/obs-studio/UI/forms/OBSUpdate.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\UI\FORMS\OBSREMUX.UI
+setlocal
+D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic.exe -o D:/proj/github/obs/obs-studio/build-x64/UI/ui_OBSRemux.h D:/proj/github/obs/obs-studio/UI/forms/OBSRemux.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\UI\FORMS\OBSIMPORTER.UI
+setlocal
+D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic.exe -o D:/proj/github/obs/obs-studio/build-x64/UI/ui_OBSImporter.h D:/proj/github/obs/obs-studio/UI/forms/OBSImporter.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\UI\FORMS\OBSABOUT.UI
+setlocal
+D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\uic.exe -o D:/proj/github/obs/obs-studio/build-x64/UI/ui_OBSAbout.h D:/proj/github/obs/obs-studio/UI/forms/OBSAbout.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\UI\FORMS\OBS.QRC
+setlocal
+D:\program\Qt\Qt5.14.1\5.14.1\msvc2017_64\bin\rcc.exe --name obs --output D:/proj/github/obs/obs-studio/build-x64/UI/qrc_obs.cpp D:/proj/github/obs/obs-studio/UI/forms/obs.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\UI\CMAKELISTS.TXT
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/UI/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

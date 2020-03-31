@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{410CEE13-B890-3D10-8329-995D54643F27}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>enc-amf</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">enc-amf.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">enc-amf</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">enc-amf.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">enc-amf</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">enc-amf.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">enc-amf</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">enc-amf.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">enc-amf</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\include;D:\proj\github\obs\obs-studio\plugins\enc-amf\include;D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include;D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\source;D:\proj\github\obs\obs-studio\plugins\enc-amf\source;D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf;D:\proj\github\obs\obs-studio\plugins\enc-amf;D:\proj\github\obs\obs-studio;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\build-x64\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4201;4456;4457;4458;4459;4595</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DEBUG=1;_DEBUG=1;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;NOGPICAPMASKS;NOVIRTUALKEYCODES;NOWINSTYLES;NOSYSMETRICS;NOMENUS;NOICONS;NOKEYSTATES;NOSYSCOMMANDS;NORASTEROPS;NOSHOWWINDOW;NOATOM;NOCLIPBOARD;NOCOLOR;NOCTLMGR;NODRAWTEXT;NOKERNEL;NOMB;NOMEMMGR;NOMETAFILE;NOMINMAX;NOOPENFILE;NOSCROLL;NOSERVICE;NOSOUND;NOWH;NOWINOFFSETS;NOCOMM;NOKANJI;NOHELP;NOPROFILER;NODEFERWINDOWPOS;NOMCX;NOIME;NOMDI;NOINOUT;UNICODE;_UNICODE;_CRT_NONSTDC_NO_WARNINGS;HAVE_OBSCONFIG_H;CMAKE_INTDIR="Debug";enc_amf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;DEBUG=1;_DEBUG=1;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;NOGPICAPMASKS;NOVIRTUALKEYCODES;NOWINSTYLES;NOSYSMETRICS;NOMENUS;NOICONS;NOKEYSTATES;NOSYSCOMMANDS;NORASTEROPS;NOSHOWWINDOW;NOATOM;NOCLIPBOARD;NOCOLOR;NOCTLMGR;NODRAWTEXT;NOKERNEL;NOMB;NOMEMMGR;NOMETAFILE;NOMINMAX;NOOPENFILE;NOSCROLL;NOSERVICE;NOSOUND;NOWH;NOWINOFFSETS;NOCOMM;NOKANJI;NOHELP;NOPROFILER;NODEFERWINDOWPOS;NOMCX;NOIME;NOMDI;NOINOUT;UNICODE;_UNICODE;_CRT_NONSTDC_NO_WARNINGS;HAVE_OBSCONFIG_H;CMAKE_INTDIR=\"Debug\";enc_amf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\include;D:\proj\github\obs\obs-studio\plugins\enc-amf\include;D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include;D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\source;D:\proj\github\obs\obs-studio\plugins\enc-amf\source;D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf;D:\proj\github\obs\obs-studio\plugins\enc-amf;D:\proj\github\obs\obs-studio;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\build-x64\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\include;D:\proj\github\obs\obs-studio\plugins\enc-amf\include;D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include;D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\source;D:\proj\github\obs\obs-studio\plugins\enc-amf\source;D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf;D:\proj\github\obs\obs-studio\plugins\enc-amf;D:\proj\github\obs\obs-studio;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\build-x64\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>			</Message>
+      <Command>setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -E copy D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/Debug/enc-amf.dll D:/proj/github/obs/obs-studio/build-x64/rundir/Debug/obs-plugins/64bit/enc-amf.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -DCONFIG=Debug -DFNAME=enc-amf.dll -DINPUT=D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/Debug -DOUTPUT=D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/pdbs -P D:/proj/github/obs/obs-studio/cmake/copy_on_debug_helper.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -DCONFIG=Debug -DFNAME=enc-amf.dll -DINPUT=D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/Debug -DOUTPUT=D:/proj/github/obs/obs-studio/build-x64/rundir/Debug/obs-plugins/64bit -P D:/proj/github/obs/obs-studio/cmake/copy_on_debug_helper.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -E copy_directory D:/proj/github/obs/obs-studio/plugins/enc-amf/resources D:/proj/github/obs/obs-studio/build-x64/rundir/Debug/data/obs-plugins/enc-amf
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\libobs\Debug\obs.lib;version.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/Debug/enc-amf.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/Debug/enc-amf.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\include;D:\proj\github\obs\obs-studio\plugins\enc-amf\include;D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include;D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\source;D:\proj\github\obs\obs-studio\plugins\enc-amf\source;D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf;D:\proj\github\obs\obs-studio\plugins\enc-amf;D:\proj\github\obs\obs-studio;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\build-x64\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4127;4201;4456;4457;4458;4459;4595</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;NOGPICAPMASKS;NOVIRTUALKEYCODES;NOWINSTYLES;NOSYSMETRICS;NOMENUS;NOICONS;NOKEYSTATES;NOSYSCOMMANDS;NORASTEROPS;NOSHOWWINDOW;NOATOM;NOCLIPBOARD;NOCOLOR;NOCTLMGR;NODRAWTEXT;NOKERNEL;NOMB;NOMEMMGR;NOMETAFILE;NOMINMAX;NOOPENFILE;NOSCROLL;NOSERVICE;NOSOUND;NOWH;NOWINOFFSETS;NOCOMM;NOKANJI;NOHELP;NOPROFILER;NODEFERWINDOWPOS;NOMCX;NOIME;NOMDI;NOINOUT;UNICODE;_UNICODE;_CRT_NONSTDC_NO_WARNINGS;HAVE_OBSCONFIG_H;CMAKE_INTDIR="Release";enc_amf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;NOGPICAPMASKS;NOVIRTUALKEYCODES;NOWINSTYLES;NOSYSMETRICS;NOMENUS;NOICONS;NOKEYSTATES;NOSYSCOMMANDS;NORASTEROPS;NOSHOWWINDOW;NOATOM;NOCLIPBOARD;NOCOLOR;NOCTLMGR;NODRAWTEXT;NOKERNEL;NOMB;NOMEMMGR;NOMETAFILE;NOMINMAX;NOOPENFILE;NOSCROLL;NOSERVICE;NOSOUND;NOWH;NOWINOFFSETS;NOCOMM;NOKANJI;NOHELP;NOPROFILER;NODEFERWINDOWPOS;NOMCX;NOIME;NOMDI;NOINOUT;UNICODE;_UNICODE;_CRT_NONSTDC_NO_WARNINGS;HAVE_OBSCONFIG_H;CMAKE_INTDIR=\"Release\";enc_amf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\include;D:\proj\github\obs\obs-studio\plugins\enc-amf\include;D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include;D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\source;D:\proj\github\obs\obs-studio\plugins\enc-amf\source;D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf;D:\proj\github\obs\obs-studio\plugins\enc-amf;D:\proj\github\obs\obs-studio;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\build-x64\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\include;D:\proj\github\obs\obs-studio\plugins\enc-amf\include;D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include;D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\source;D:\proj\github\obs\obs-studio\plugins\enc-amf\source;D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf;D:\proj\github\obs\obs-studio\plugins\enc-amf;D:\proj\github\obs\obs-studio;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\build-x64\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>			</Message>
+      <Command>setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -E copy D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/Release/enc-amf.dll D:/proj/github/obs/obs-studio/build-x64/rundir/Release/obs-plugins/64bit/enc-amf.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -DCONFIG=Release -DFNAME=enc-amf.dll -DINPUT=D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/Release -DOUTPUT=D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/pdbs -P D:/proj/github/obs/obs-studio/cmake/copy_on_debug_helper.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -DCONFIG=Release -DFNAME=enc-amf.dll -DINPUT=D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/Release -DOUTPUT=D:/proj/github/obs/obs-studio/build-x64/rundir/Release/obs-plugins/64bit -P D:/proj/github/obs/obs-studio/cmake/copy_on_debug_helper.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -E copy_directory D:/proj/github/obs/obs-studio/plugins/enc-amf/resources D:/proj/github/obs/obs-studio/build-x64/rundir/Release/data/obs-plugins/enc-amf
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\libobs\Release\obs.lib;version.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/Release/enc-amf.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/Release/enc-amf.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\include;D:\proj\github\obs\obs-studio\plugins\enc-amf\include;D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include;D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\source;D:\proj\github\obs\obs-studio\plugins\enc-amf\source;D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf;D:\proj\github\obs\obs-studio\plugins\enc-amf;D:\proj\github\obs\obs-studio;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\build-x64\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4127;4201;4456;4457;4458;4459;4595</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;NOGPICAPMASKS;NOVIRTUALKEYCODES;NOWINSTYLES;NOSYSMETRICS;NOMENUS;NOICONS;NOKEYSTATES;NOSYSCOMMANDS;NORASTEROPS;NOSHOWWINDOW;NOATOM;NOCLIPBOARD;NOCOLOR;NOCTLMGR;NODRAWTEXT;NOKERNEL;NOMB;NOMEMMGR;NOMETAFILE;NOMINMAX;NOOPENFILE;NOSCROLL;NOSERVICE;NOSOUND;NOWH;NOWINOFFSETS;NOCOMM;NOKANJI;NOHELP;NOPROFILER;NODEFERWINDOWPOS;NOMCX;NOIME;NOMDI;NOINOUT;UNICODE;_UNICODE;_CRT_NONSTDC_NO_WARNINGS;HAVE_OBSCONFIG_H;CMAKE_INTDIR="MinSizeRel";enc_amf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;NOGPICAPMASKS;NOVIRTUALKEYCODES;NOWINSTYLES;NOSYSMETRICS;NOMENUS;NOICONS;NOKEYSTATES;NOSYSCOMMANDS;NORASTEROPS;NOSHOWWINDOW;NOATOM;NOCLIPBOARD;NOCOLOR;NOCTLMGR;NODRAWTEXT;NOKERNEL;NOMB;NOMEMMGR;NOMETAFILE;NOMINMAX;NOOPENFILE;NOSCROLL;NOSERVICE;NOSOUND;NOWH;NOWINOFFSETS;NOCOMM;NOKANJI;NOHELP;NOPROFILER;NODEFERWINDOWPOS;NOMCX;NOIME;NOMDI;NOINOUT;UNICODE;_UNICODE;_CRT_NONSTDC_NO_WARNINGS;HAVE_OBSCONFIG_H;CMAKE_INTDIR=\"MinSizeRel\";enc_amf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\include;D:\proj\github\obs\obs-studio\plugins\enc-amf\include;D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include;D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\source;D:\proj\github\obs\obs-studio\plugins\enc-amf\source;D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf;D:\proj\github\obs\obs-studio\plugins\enc-amf;D:\proj\github\obs\obs-studio;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\build-x64\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\include;D:\proj\github\obs\obs-studio\plugins\enc-amf\include;D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include;D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\source;D:\proj\github\obs\obs-studio\plugins\enc-amf\source;D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf;D:\proj\github\obs\obs-studio\plugins\enc-amf;D:\proj\github\obs\obs-studio;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\build-x64\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>			</Message>
+      <Command>setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -E copy D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/MinSizeRel/enc-amf.dll D:/proj/github/obs/obs-studio/build-x64/rundir/MinSizeRel/obs-plugins/64bit/enc-amf.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -DCONFIG=MinSizeRel -DFNAME=enc-amf.dll -DINPUT=D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/MinSizeRel -DOUTPUT=D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/pdbs -P D:/proj/github/obs/obs-studio/cmake/copy_on_debug_helper.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -DCONFIG=MinSizeRel -DFNAME=enc-amf.dll -DINPUT=D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/MinSizeRel -DOUTPUT=D:/proj/github/obs/obs-studio/build-x64/rundir/MinSizeRel/obs-plugins/64bit -P D:/proj/github/obs/obs-studio/cmake/copy_on_debug_helper.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -E copy_directory D:/proj/github/obs/obs-studio/plugins/enc-amf/resources D:/proj/github/obs/obs-studio/build-x64/rundir/MinSizeRel/data/obs-plugins/enc-amf
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\libobs\MinSizeRel\obs.lib;version.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/MinSizeRel/enc-amf.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/MinSizeRel/enc-amf.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\include;D:\proj\github\obs\obs-studio\plugins\enc-amf\include;D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include;D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\source;D:\proj\github\obs\obs-studio\plugins\enc-amf\source;D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf;D:\proj\github\obs\obs-studio\plugins\enc-amf;D:\proj\github\obs\obs-studio;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\build-x64\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4201;4456;4457;4458;4459;4595</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;NOGPICAPMASKS;NOVIRTUALKEYCODES;NOWINSTYLES;NOSYSMETRICS;NOMENUS;NOICONS;NOKEYSTATES;NOSYSCOMMANDS;NORASTEROPS;NOSHOWWINDOW;NOATOM;NOCLIPBOARD;NOCOLOR;NOCTLMGR;NODRAWTEXT;NOKERNEL;NOMB;NOMEMMGR;NOMETAFILE;NOMINMAX;NOOPENFILE;NOSCROLL;NOSERVICE;NOSOUND;NOWH;NOWINOFFSETS;NOCOMM;NOKANJI;NOHELP;NOPROFILER;NODEFERWINDOWPOS;NOMCX;NOIME;NOMDI;NOINOUT;UNICODE;_UNICODE;_CRT_NONSTDC_NO_WARNINGS;HAVE_OBSCONFIG_H;CMAKE_INTDIR="RelWithDebInfo";enc_amf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;NOGPICAPMASKS;NOVIRTUALKEYCODES;NOWINSTYLES;NOSYSMETRICS;NOMENUS;NOICONS;NOKEYSTATES;NOSYSCOMMANDS;NORASTEROPS;NOSHOWWINDOW;NOATOM;NOCLIPBOARD;NOCOLOR;NOCTLMGR;NODRAWTEXT;NOKERNEL;NOMB;NOMEMMGR;NOMETAFILE;NOMINMAX;NOOPENFILE;NOSCROLL;NOSERVICE;NOSOUND;NOWH;NOWINOFFSETS;NOCOMM;NOKANJI;NOHELP;NOPROFILER;NODEFERWINDOWPOS;NOMCX;NOIME;NOMDI;NOINOUT;UNICODE;_UNICODE;_CRT_NONSTDC_NO_WARNINGS;HAVE_OBSCONFIG_H;CMAKE_INTDIR=\"RelWithDebInfo\";enc_amf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\include;D:\proj\github\obs\obs-studio\plugins\enc-amf\include;D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include;D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\source;D:\proj\github\obs\obs-studio\plugins\enc-amf\source;D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf;D:\proj\github\obs\obs-studio\plugins\enc-amf;D:\proj\github\obs\obs-studio;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\build-x64\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\include;D:\proj\github\obs\obs-studio\plugins\enc-amf\include;D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include;D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\source;D:\proj\github\obs\obs-studio\plugins\enc-amf\source;D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf;D:\proj\github\obs\obs-studio\plugins\enc-amf;D:\proj\github\obs\obs-studio;D:\proj\github\obs\obs-studio\libobs;D:\proj\github\obs\obs-studio\build-x64\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>			</Message>
+      <Command>setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -E copy D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/RelWithDebInfo/enc-amf.dll D:/proj/github/obs/obs-studio/build-x64/rundir/RelWithDebInfo/obs-plugins/64bit/enc-amf.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -DCONFIG=RelWithDebInfo -DFNAME=enc-amf.dll -DINPUT=D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/RelWithDebInfo -DOUTPUT=D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/pdbs -P D:/proj/github/obs/obs-studio/cmake/copy_on_debug_helper.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -DCONFIG=RelWithDebInfo -DFNAME=enc-amf.dll -DINPUT=D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/RelWithDebInfo -DOUTPUT=D:/proj/github/obs/obs-studio/build-x64/rundir/RelWithDebInfo/obs-plugins/64bit -P D:/proj/github/obs/obs-studio/cmake/copy_on_debug_helper.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -E copy_directory D:/proj/github/obs/obs-studio/plugins/enc-amf/resources D:/proj/github/obs/obs-studio/build-x64/rundir/RelWithDebInfo/data/obs-plugins/enc-amf
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\libobs\RelWithDebInfo\obs.lib;version.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/RelWithDebInfo/enc-amf.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/RelWithDebInfo/enc-amf.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/proj/github/obs/obs-studio/plugins/enc-amf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\proj\github\obs\obs-studio\plugins\enc-amf\ci\installer.in.iss;D:\proj\github\obs\obs-studio\plugins\enc-amf\cmake\util.cmake;D:\proj\github\obs\obs-studio\plugins\enc-amf\cmake\version.rc.in;D:\proj\github\obs\obs-studio\plugins\enc-amf\include\version.hpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/proj/github/obs/obs-studio/plugins/enc-amf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\proj\github\obs\obs-studio\plugins\enc-amf\ci\installer.in.iss;D:\proj\github\obs\obs-studio\plugins\enc-amf\cmake\util.cmake;D:\proj\github\obs\obs-studio\plugins\enc-amf\cmake\version.rc.in;D:\proj\github\obs\obs-studio\plugins\enc-amf\include\version.hpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/proj/github/obs/obs-studio/plugins/enc-amf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\proj\github\obs\obs-studio\plugins\enc-amf\ci\installer.in.iss;D:\proj\github\obs\obs-studio\plugins\enc-amf\cmake\util.cmake;D:\proj\github\obs\obs-studio\plugins\enc-amf\cmake\version.rc.in;D:\proj\github\obs\obs-studio\plugins\enc-amf\include\version.hpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/proj/github/obs/obs-studio/plugins/enc-amf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\proj\github\obs\obs-studio\plugins\enc-amf\ci\installer.in.iss;D:\proj\github\obs\obs-studio\plugins\enc-amf\cmake\util.cmake;D:\proj\github\obs\obs-studio\plugins\enc-amf\cmake\version.rc.in;D:\proj\github\obs\obs-studio\plugins\enc-amf\include\version.hpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\include\amf.hpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\include\amf-capabilities.hpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\include\amf-encoder.hpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\include\amf-encoder-h264.hpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\include\enc-h264.hpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\include\amf-encoder-h265.hpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\include\enc-h265.hpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\include\api-base.hpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\include\api-host.hpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\include\api-opengl.hpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\include\utility.hpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\include\plugin.hpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\include\strings.hpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\include\version.hpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\include\api-d3d9.hpp" />
+    <ClInclude Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\include\api-d3d11.hpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\source\amf.cpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\source\amf-capabilities.cpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\source\amf-encoder.cpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\source\amf-encoder-h264.cpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\source\enc-h264.cpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\source\amf-encoder-h265.cpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\source\enc-h265.cpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\source\api-base.cpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\source\api-host.cpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\source\api-opengl.cpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\source\utility.cpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\source\plugin.cpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\source\api-d3d9.cpp" />
+    <ClCompile Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\source\api-d3d11.cpp" />
+    <ResourceCompile Include="D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\cmake\version.rc" />
+    <None Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\resources\locale\en-US.ini" />
+    <None Include="D:\proj\github\obs\obs-studio\plugins\enc-amf\LICENSE" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\ZERO_CHECK.vcxproj">
+      <Project>{C1803EF6-F629-3922-93F2-0DA9AA51712C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\github\obs\obs-studio\build-x64\libobs\libobs.vcxproj">
+      <Project>{6FFDC9CC-FECB-3B79-BBC1-2D100066D7D5}</Project>
+      <Name>libobs</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

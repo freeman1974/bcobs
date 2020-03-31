@@ -1,0 +1,8 @@
+﻿  Building Custom Rule D:/proj/github/obs/obs-studio/plugins/rtmp-services/CMakeLists.txt
+  twitch.c
+  younow.c
+  rtmp-common.c
+  rtmp-custom.c
+  rtmp-services-main.c
+    正在创建库 D:/proj/github/obs/obs-studio/build-x64/plugins/rtmp-services/Release/rtmp-services.lib 和对象 D:/proj/github/obs/obs-studio/build-x64/plugins/rtmp-services/Release/rtmp-services.exp
+  rtmp-services.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\plugins\rtmp-services\Release\rtmp-services.dll

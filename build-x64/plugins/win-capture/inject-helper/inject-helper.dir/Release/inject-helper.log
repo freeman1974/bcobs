@@ -1,0 +1,5 @@
+﻿  Building Custom Rule D:/proj/github/obs/obs-studio/plugins/win-capture/inject-helper/CMakeLists.txt
+  inject-library.c
+  obfuscate.c
+  inject-helper.c
+  inject-helper.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\plugins\win-capture\inject-helper\Release\inject-helper64.exe

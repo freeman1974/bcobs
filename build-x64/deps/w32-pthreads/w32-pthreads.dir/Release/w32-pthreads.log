@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/proj/github/obs/obs-studio/deps/w32-pthreads/CMakeLists.txt
+  pthread.c
+    正在创建库 D:/proj/github/obs/obs-studio/build-x64/deps/w32-pthreads/Release/w32-pthreads.lib 和对象 D:/proj/github/obs/obs-studio/build-x64/deps/w32-pthreads/Release/w32-pthreads.exp
+  w32-pthreads.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\deps\w32-pthreads\Release\w32-pthreads.dll

@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/proj/github/obs/obs-studio/plugins/coreaudio-encoder/CMakeLists.txt
+  encoder.cpp
+    正在创建库 D:/proj/github/obs/obs-studio/build-x64/plugins/coreaudio-encoder/Release/coreaudio-encoder.lib 和对象 D:/proj/github/obs/obs-studio/build-x64/plugins/coreaudio-encoder/Release/coreaudio-encoder.exp
+  coreaudio-encoder.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\plugins\coreaudio-encoder\Release\coreaudio-encoder.dll

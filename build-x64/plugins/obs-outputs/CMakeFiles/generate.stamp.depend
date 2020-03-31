@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+D:/proj/github/obs/obs-studio/cmake/Modules/FindLibcurl.cmake
+D:/proj/github/obs/obs-studio/cmake/Modules/FindMbedTLS.cmake
+D:/proj/github/obs/obs-studio/cmake/Modules/FindZLIB.cmake
+D:/proj/github/obs/obs-studio/plugins/obs-outputs/CMakeLists.txt
+D:/proj/github/obs/obs-studio/plugins/obs-outputs/obs-outputs-config.h.in
+D:/proj/github/obs/obs-tools/cmake-3.17.0/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake
+D:/proj/github/obs/obs-tools/cmake-3.17.0/share/cmake-3.17/Modules/FindPackageMessage.cmake
+D:/proj/github/obs/obs-tools/cmake-3.17.0/share/cmake-3.17/Modules/FindPkgConfig.cmake

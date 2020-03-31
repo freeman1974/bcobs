@@ -1,0 +1,17 @@
+﻿  Building Custom Rule D:/proj/github/obs/obs-studio/plugins/win-capture/CMakeLists.txt
+  dc-capture.c
+  obfuscate.c
+  app-helpers.c
+  inject-library.c
+  cursor-capture.c
+  game-capture.c
+  window-helpers.c
+  monitor-capture.c
+  window-capture.c
+  load-graphics-offsets.c
+D:\proj\github\obs\obs-studio\plugins\win-capture\monitor-capture.c(189,28): warning C4133: “函数”: 从“MONITORINFOEX *”到“LPMONITORINFO”的类型不兼容
+  game-capture-file-init.c
+  duplicator-monitor-capture.c
+  plugin-main.c
+    正在创建库 D:/proj/github/obs/obs-studio/build-x64/plugins/win-capture/Release/win-capture.lib 和对象 D:/proj/github/obs/obs-studio/build-x64/plugins/win-capture/Release/win-capture.exp
+  win-capture.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\plugins\win-capture\Release\win-capture.dll

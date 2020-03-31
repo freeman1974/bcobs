@@ -1,0 +1,60 @@
+﻿  Building Custom Rule D:/proj/github/obs/obs-studio/libobs-winrt/CMakeLists.txt
+  cmake_pch.cxx
+  winrt-capture.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\cppwinrt\winrt/base.h(6508,17): warning C5205: 删除具有非虚拟析构函数的抽象类 "winrt::impl::implements_delegate<winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>,H>" 将导致未定义的行为
+          with
+          [
+              H=winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>::<lambda_5ebee13f5ff980e2ff1bd5ca59aff8c7>
+          ]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\cppwinrt\winrt/base.h(9006): message : 参见“winrt::impl::implements_delegate<winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>,H>”的声明
+          with
+          [
+              H=winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>::<lambda_5ebee13f5ff980e2ff1bd5ca59aff8c7>
+          ]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\cppwinrt\winrt/base.h(6502): message : 在编译 类 模板 成员函数“uint32_t winrt::impl::implements_delegate<winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>,H>::Release(void) noexcept”时
+          with
+          [
+              H=winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>::<lambda_5ebee13f5ff980e2ff1bd5ca59aff8c7>
+          ]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\cppwinrt\winrt/base.h(9007): message : 查看对正在编译的 类 模板 实例化“winrt::impl::implements_delegate<winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>,H>”的引用
+          with
+          [
+              H=winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>::<lambda_5ebee13f5ff980e2ff1bd5ca59aff8c7>
+          ]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\cppwinrt\winrt/base.h(6523): message : 查看对正在编译的 类 模板 实例化“winrt::impl::delegate<T>::type<H>”的引用
+          with
+          [
+              T=winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>,
+              H=winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>::<lambda_5ebee13f5ff980e2ff1bd5ca59aff8c7>
+          ]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\cppwinrt\winrt/base.h(6707): message : 查看对正在编译的函数 模板 实例化“T winrt::impl::make_delegate<winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>,_Ty>(H &&)”的引用
+          with
+          [
+              T=winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>,
+              _Ty=winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>::<lambda_5ebee13f5ff980e2ff1bd5ca59aff8c7>,
+              H=winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>::<lambda_5ebee13f5ff980e2ff1bd5ca59aff8c7>
+          ]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\cppwinrt\winrt/base.h(6716): message : 查看对正在编译的函数 模板 实例化“winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>::TypedEventHandler<winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>::<lambda_5ebee13f5ff980e2ff1bd5ca59aff8c7>>(L)”的引用
+          with
+          [
+              L=winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>::<lambda_5ebee13f5ff980e2ff1bd5ca59aff8c7>
+          ]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\cppwinrt\winrt/base.h(6715): message : 查看对正在编译的函数 模板 实例化“winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>::TypedEventHandler<winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>::<lambda_5ebee13f5ff980e2ff1bd5ca59aff8c7>>(L)”的引用
+          with
+          [
+              L=winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>::<lambda_5ebee13f5ff980e2ff1bd5ca59aff8c7>
+          ]
+D:\proj\github\obs\obs-studio\libobs-winrt\winrt-capture.cpp(306): message : 查看对正在编译的函数 模板 实例化“winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>::TypedEventHandler<winrt_capture,void(__cdecl winrt_capture::* )(const winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool &,const winrt::Windows::Foundation::IInspectable &)>(O *,M)”的引用
+          with
+          [
+              O=winrt_capture,
+              M=void (__cdecl winrt_capture::* )(const winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool &,const winrt::Windows::Foundation::IInspectable &)
+          ]
+D:\proj\github\obs\obs-studio\libobs-winrt\winrt-capture.cpp(304): message : 查看对正在编译的函数 模板 实例化“winrt::Windows::Foundation::TypedEventHandler<winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool,winrt::Windows::Foundation::IInspectable>::TypedEventHandler<winrt_capture,void(__cdecl winrt_capture::* )(const winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool &,const winrt::Windows::Foundation::IInspectable &)>(O *,M)”的引用
+          with
+          [
+              O=winrt_capture,
+              M=void (__cdecl winrt_capture::* )(const winrt::Windows::Graphics::Capture::Direct3D11CaptureFramePool &,const winrt::Windows::Foundation::IInspectable &)
+          ]
+    正在创建库 D:/proj/github/obs/obs-studio/build-x64/libobs-winrt/Release/libobs-winrt.lib 和对象 D:/proj/github/obs/obs-studio/build-x64/libobs-winrt/Release/libobs-winrt.exp
+  libobs-winrt.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\libobs-winrt\Release\libobs-winrt.dll

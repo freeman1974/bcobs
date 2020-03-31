@@ -1,0 +1,43 @@
+﻿  Building Custom Rule D:/proj/github/obs/obs-studio/plugins/enc-amf/CMakeLists.txt
+  amf.cpp
+  amf-capabilities.cpp
+  amf-encoder.cpp
+  amf-encoder-h264.cpp
+  enc-h264.cpp
+  amf-encoder-h265.cpp
+  enc-h265.cpp
+  api-base.cpp
+D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include\components\VideoEncoderVCE.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\plugins\enc-amf\source\amf.cpp)
+D:\proj\github\obs\obs-studio\plugins\enc-amf\source\amf.cpp(220,4): warning C5205: 删除具有非虚拟析构函数的抽象类 "amf::AMFTraceWriter" 将导致未定义的行为
+D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include\core\Trace.h(69): message : 参见“amf::AMFTraceWriter”的声明
+  api-host.cpp
+D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include\components\VideoEncoderVCE.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\plugins\enc-amf\source\amf-capabilities.cpp)
+D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include\components/VideoEncoderHEVC.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\plugins\enc-amf\source\amf-capabilities.cpp)
+D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include\components/VideoConverter.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\plugins\enc-amf\source\amf-capabilities.cpp)
+D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include\components\VideoEncoderVCE.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\plugins\enc-amf\source\amf-encoder.cpp)
+D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include\components\VideoEncoderVCE.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\plugins\enc-amf\source\amf-encoder-h264.cpp)
+D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include\components/VideoEncoderHEVC.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\plugins\enc-amf\source\amf-encoder.cpp)
+D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include\components/VideoEncoderHEVC.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\plugins\enc-amf\source\amf-encoder-h264.cpp)
+D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include\components/VideoConverter.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\plugins\enc-amf\source\amf-encoder-h264.cpp)
+D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include\components/VideoConverter.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\plugins\enc-amf\source\amf-encoder.cpp)
+D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include\components\VideoEncoderVCE.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\plugins\enc-amf\source\amf-encoder-h265.cpp)
+D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include\components/VideoEncoderHEVC.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\plugins\enc-amf\source\amf-encoder-h265.cpp)
+D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include\components/VideoConverter.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\plugins\enc-amf\source\amf-encoder-h265.cpp)
+  api-opengl.cpp
+D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include\components\VideoEncoderVCE.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\plugins\enc-amf\source\enc-h264.cpp)
+D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include\components\VideoEncoderVCE.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\plugins\enc-amf\source\enc-h265.cpp)
+D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include\components/VideoEncoderHEVC.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\plugins\enc-amf\source\enc-h264.cpp)
+D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include\components/VideoConverter.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\plugins\enc-amf\source\enc-h264.cpp)
+D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include\components/VideoEncoderHEVC.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\plugins\enc-amf\source\enc-h265.cpp)
+D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include\components/VideoConverter.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\plugins\enc-amf\source\enc-h265.cpp)
+  utility.cpp
+  plugin.cpp
+D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include\components\VideoEncoderVCE.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\plugins\enc-amf\source\utility.cpp)
+  api-d3d9.cpp
+D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include\components/VideoEncoderHEVC.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\plugins\enc-amf\source\utility.cpp)
+D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include\components/VideoConverter.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\plugins\enc-amf\source\utility.cpp)
+  api-d3d11.cpp
+D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include\components\VideoEncoderVCE.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\plugins\enc-amf\source\plugin.cpp)
+D:\proj\github\obs\obs-studio\plugins\enc-amf\AMF\amf\public\include\components/VideoEncoderHEVC.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 D:\proj\github\obs\obs-studio\plugins\enc-amf\source\plugin.cpp)
+    正在创建库 D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/Release/enc-amf.lib 和对象 D:/proj/github/obs/obs-studio/build-x64/plugins/enc-amf/Release/enc-amf.exp
+  enc-amf.vcxproj -> D:\proj\github\obs\obs-studio\build-x64\plugins\enc-amf\Release\enc-amf.dll

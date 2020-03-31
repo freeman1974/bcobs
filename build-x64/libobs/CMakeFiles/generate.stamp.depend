@@ -1,0 +1,17 @@
+# CMake generation dependency list for this directory.
+D:/proj/github/obs/obs-studio/build-x64/CMakeFiles/CheckIncludeFiles/CMAKE_HAVE_PTHREAD_H.c
+D:/proj/github/obs/obs-studio/cmake/Modules/FindFFmpeg.cmake
+D:/proj/github/obs/obs-studio/cmake/Modules/FindThreads.cmake
+D:/proj/github/obs/obs-studio/cmake/Modules/FindZLIB.cmake
+D:/proj/github/obs/obs-studio/libobs/CMakeLists.txt
+D:/proj/github/obs/obs-studio/libobs/LibObsConfig.cmake.in
+D:/proj/github/obs/obs-studio/libobs/LibObsConfigVersion.cmake.in
+D:/proj/github/obs/obs-studio/libobs/obsconfig.h.in
+D:/proj/github/obs/obs-tools/cmake-3.17.0/share/cmake-3.17/Modules/CMakeConfigurableFile.in
+D:/proj/github/obs/obs-tools/cmake-3.17.0/share/cmake-3.17/Modules/CheckIncludeFiles.cmake
+D:/proj/github/obs/obs-tools/cmake-3.17.0/share/cmake-3.17/Modules/CheckLibraryExists.cmake
+D:/proj/github/obs/obs-tools/cmake-3.17.0/share/cmake-3.17/Modules/CheckSymbolExists.cmake
+D:/proj/github/obs/obs-tools/cmake-3.17.0/share/cmake-3.17/Modules/FindImageMagick.cmake
+D:/proj/github/obs/obs-tools/cmake-3.17.0/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake
+D:/proj/github/obs/obs-tools/cmake-3.17.0/share/cmake-3.17/Modules/FindPackageMessage.cmake
+D:/proj/github/obs/obs-tools/cmake-3.17.0/share/cmake-3.17/Modules/FindPkgConfig.cmake

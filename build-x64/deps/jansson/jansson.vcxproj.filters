@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\jansson\src\dump.c">
+      <Filter>Library Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\jansson\src\error.c">
+      <Filter>Library Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\jansson\src\hashtable.c">
+      <Filter>Library Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\jansson\src\hashtable_seed.c">
+      <Filter>Library Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\jansson\src\load.c">
+      <Filter>Library Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\jansson\src\memory.c">
+      <Filter>Library Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\jansson\src\pack_unpack.c">
+      <Filter>Library Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\jansson\src\strbuffer.c">
+      <Filter>Library Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\jansson\src\strconv.c">
+      <Filter>Library Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\jansson\src\utf.c">
+      <Filter>Library Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\github\obs\obs-studio\deps\jansson\src\value.c">
+      <Filter>Library Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\deps\jansson\src\hashtable.h">
+      <Filter>Library Private Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\deps\jansson\src\jansson_private.h">
+      <Filter>Library Private Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\deps\jansson\src\strbuffer.h">
+      <Filter>Library Private Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\deps\jansson\src\utf.h">
+      <Filter>Library Private Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\build-x64\deps\jansson\private_include\jansson_private_config.h">
+      <Filter>Library Private Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\build-x64\deps\jansson\include\jansson_config.h">
+      <Filter>Library Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\proj\github\obs\obs-studio\deps\jansson\src\jansson.h">
+      <Filter>Library Public Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\proj\github\obs\obs-studio\deps\jansson\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Library Private Headers">
+      <UniqueIdentifier>{FF3C5DFF-5B57-3471-9B1B-9C9EFC9C8951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library Public Headers">
+      <UniqueIdentifier>{540115A0-16A8-32AA-A943-8B286B8BD2A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library Sources">
+      <UniqueIdentifier>{EED14A5C-0590-34E0-AA7F-2EEDB63DB6D9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

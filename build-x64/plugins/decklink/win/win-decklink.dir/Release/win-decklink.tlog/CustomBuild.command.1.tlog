@@ -1,0 +1,24 @@
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\BUILD-X64\CMAKEFILES\C1060153FF51B83A33C0B9BBEEC0E4CA\DECKLINKAPI.H.RULE
+setlocal
+cd D:\proj\github\obs\obs-studio\build-x64\plugins\decklink\win
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+midl /h DeckLinkAPI.h /iid DeckLinkAPI_i.c /notlb D:/proj/github/obs/obs-studio/plugins/decklink/win/decklink-sdk/DeckLinkAPI.idl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJ\GITHUB\OBS\OBS-STUDIO\PLUGINS\DECKLINK\WIN\CMAKELISTS.TXT
+setlocal
+D:\proj\github\obs\obs-tools\cmake-3.17.0\bin\cmake.exe -SD:/proj/github/obs/obs-studio -BD:/proj/github/obs/obs-studio/build-x64 --check-stamp-file D:/proj/github/obs/obs-studio/build-x64/plugins/decklink/win/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
